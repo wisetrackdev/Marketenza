@@ -79,11 +79,12 @@
             <div class="lead-modal-footer">
                 <button type="submit" class="btn btn-accent lead-submit-btn" id="leadModalSubmitBtn">
                     <div class="btn-title">
-                        <span>Get Free Strategy Call</span>
+                        <span>Let's Talk</span>
                     </div>
-                    <div class="icon-circle">
-                        <i class="fa-solid fa-paper-plane"></i>
-                    </div>
+        <div class="icon-circle">
+    <i class="fa-solid fa-arrow-right"></i>
+</div>
+
                 </button>
 
                 <p class="lead-privacy-note">
