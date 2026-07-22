@@ -6,7 +6,7 @@
             <div class="banner-layout-wrapper">
                 <div class="banner-layout">
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
-                        <h1 class="title-heading heading-lg animation-box anim-normal anim-delay-sm" data-animation="fade-right">About MARKETENZA – Top Digital Marketing Agency in India </h1>
+                        <h1 class="title-heading heading-lg animation-box anim-normal anim-delay-sm" data-animation="fade-right">Innovating the Future with Technology </h1>
                         <nav class="breadcrumb">
                             <a href="index.php" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
