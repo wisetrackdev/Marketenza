@@ -73,8 +73,8 @@
                                 <div class="card-expertise-wrapper">
                                     <div class="card card-expertise animation-box anim-normal anim-delay-sm"
                                         data-animation="fade-down">
-                                        <span class="heading-sm">Ready to Elevate Your Digital Presence?</span>
-                                        <p>Let's create a custom strategy that fits your business goals.</p>
+                                        <span class="heading-sm">Ready to Transform Your Business?</span>
+                                        <p>Let's build innovative websites, mobile apps, and digital strategies that help your business grow faster.</p>
                                         <div class="d-flex align-items-center flex-row gspace-2 expertise-link">
                                             <a href="contact.php">Get Free Consultation</a>
                                             <i class="fa-solid fa-circle-arrow-right"></i>
