@@ -28,39 +28,163 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="about.php">About</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="service.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item dropdown dropdown-mega">
+                                <a class="nav-link dropdown-toggle" href="service.php" role="button" aria-expanded="false">
                                     Services <i class="fa-solid fa-angle-down accent-color"></i>
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item fw-bold" href="service.php">All Services</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="performance-marketing.php">Performance Marketing</a></li>
-                                    <li><a class="dropdown-item" href="social-media-marketing.php">Social Media Marketing</a></li>
-                                    <li><a class="dropdown-item" href="search-engine-optimization.php">Search Engine Optimization</a></li>
-                                    <li><a class="dropdown-item" href="website-development.php">Website Development</a></li>
-                                    <li><a class="dropdown-item" href="app-development.php">Mobile App Development</a></li>
-                                    <li><a class="dropdown-item" href="ecommerce-solutions.php">E-Commerce Solutions</a></li>
-                                    <li><a class="dropdown-item" href="branding-creative-design.php">Branding & Creative Design</a></li>
-                                    <li><a class="dropdown-item" href="crm-lead-management.php">CRM & Lead Management</a></li>
-                                    <li><a class="dropdown-item" href="analytics-business-intelligence.php">Analytics & BI</a></li>
-                                    <li><a class="dropdown-item" href="cloud-it-solutions.php">Cloud & IT Solutions</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Pages <i class="fa-solid fa-angle-down accent-color"></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="case_studies.html">Case Studies</a></li>
-                                    <li><a class="dropdown-item" href="team.html">Our Team</a></li>
-                                    <li><a class="dropdown-item" href="partnership.html">Partnership</a></li>
-                                    <li><a class="dropdown-item" href="pricing.html">Princing Plan</a></li>
-                                    <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
-                                    <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
-                                    <li><a class="dropdown-item" href="404_page.html">Error 404</a></li>
-                                </ul>
+                                <div class="mega-dropdown-menu">
+                                    <div class="mega-dropdown-header">
+                                        <div class="mega-header-text">
+                                            <h3 class="mega-title">Our Flagship Services: <span class="accent-text">Marketenza</span></h3>
+                                            <p class="mega-subtitle">End-to-end performance marketing, web development & digital solutions.</p>
+                                        </div>
+                                        <a href="service.php" class="mega-see-all">
+                                            SEE ALL SERVICES <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="mega-dropdown-divider"></div>
+                                    <div class="mega-services-grid">
+                                        <a href="performance-marketing.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-chart-line"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">Performance Marketing</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Data-driven ROI campaigns, PPC, search & display ads.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+
+                                        <a href="social-media-marketing.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-share-nodes"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">Social Media Marketing</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Strategic social growth, content strategy & brand engagement.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+
+                                        <a href="search-engine-optimization.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">Search Engine Optimization</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Organic search visibility, keyword ranking & technical SEO.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+
+                                        <a href="website-development.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-laptop-code"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">Website Development</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Custom, fast, responsive & high-converting websites.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+
+                                        <a href="app-development.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">Mobile App Development</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Native & cross-platform iOS & Android mobile applications.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+
+                                        <a href="ecommerce-solutions.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">E-Commerce Solutions</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Scalable online stores, payment gateways & sales funnels.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+
+                                        <a href="branding-creative-design.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-palette"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">Branding & Creative Design</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Brand identity, logo design, visuals & creative assets.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+
+                                        <a href="crm-lead-management.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-users-gear"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">CRM & Lead Management</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Lead capture, automated pipelines & customer workflows.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+
+                                        <a href="analytics-business-intelligence.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-chart-column"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">Analytics & BI</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Real-time insights, performance dashboards & data analytics.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+
+                                        <a href="cloud-it-solutions.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">Cloud & IT Solutions</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Secure cloud infrastructure, hosting & enterprise IT support.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </li>
                            <li class="nav-item">
                                 <a class="nav-link"  href="blog.php">Blog</a>
@@ -145,32 +269,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                         <button class="sidebar-dropdown-btn"><i class="fa-solid fa-angle-down"></i></button>
                     </div>
                     <ul class="sidebar-dropdown-menu">
-                        <li><a href="service.php">All Services</a></li>
-                        <li><a href="performance-marketing.php">Performance Marketing</a></li>
-                        <li><a href="social-media-marketing.php">Social Media Marketing</a></li>
-                        <li><a href="search-engine-optimization.php">Search Engine Optimization</a></li>
-                        <li><a href="website-development.php">Website Development</a></li>
-                        <li><a href="app-development.php">Mobile App Development</a></li>
-                        <li><a href="ecommerce-solutions.php">E-Commerce Solutions</a></li>
-                        <li><a href="branding-creative-design.php">Branding & Creative Design</a></li>
-                        <li><a href="crm-lead-management.php">CRM & Lead Management</a></li>
-                        <li><a href="analytics-business-intelligence.php">Analytics & BI</a></li>
-                        <li><a href="cloud-it-solutions.php">Cloud & IT Solutions</a></li>
-                    </ul>
-                </li>
-                <li class="sidebar-dropdown">
-                    <div class="dropdown-header">
-                        <a href="#">Pages</a>
-                        <button class="sidebar-dropdown-btn"><i class="fa-solid fa-angle-down"></i></button>
-                    </div>
-                    <ul class="sidebar-dropdown-menu">
-                        <li><a href="case_studies.html">Case Studies</a></li>
-                        <li><a href="team.html">Our Team</a></li>
-                        <li><a href="partnership.html">Partnership</a></li>
-                        <li><a href="pricing.html">Princing Plan</a></li>
-                        <li><a href="testimonial.html">Testimonial</a></li>
-                        <li><a href="faq.html">FAQs</a></li>
-                        <li><a href="404_page.html">Error 404</a></li>
+                        <li><a href="service.php"><i class="fa-solid fa-layer-group"></i> All Services</a></li>
+                        <li><a href="performance-marketing.php"><i class="fa-solid fa-chart-line"></i> Performance Marketing</a></li>
+                        <li><a href="social-media-marketing.php"><i class="fa-solid fa-share-nodes"></i> Social Media Marketing</a></li>
+                        <li><a href="search-engine-optimization.php"><i class="fa-solid fa-magnifying-glass-chart"></i> Search Engine Optimization</a></li>
+                        <li><a href="website-development.php"><i class="fa-solid fa-laptop-code"></i> Website Development</a></li>
+                        <li><a href="app-development.php"><i class="fa-solid fa-mobile-screen-button"></i> Mobile App Development</a></li>
+                        <li><a href="ecommerce-solutions.php"><i class="fa-solid fa-cart-shopping"></i> E-Commerce Solutions</a></li>
+                        <li><a href="branding-creative-design.php"><i class="fa-solid fa-palette"></i> Branding & Creative Design</a></li>
+                        <li><a href="crm-lead-management.php"><i class="fa-solid fa-users-gear"></i> CRM & Lead Management</a></li>
+                        <li><a href="analytics-business-intelligence.php"><i class="fa-solid fa-chart-column"></i> Analytics & BI</a></li>
+                        <li><a href="cloud-it-solutions.php"><i class="fa-solid fa-cloud-arrow-up"></i> Cloud & IT Solutions</a></li>
                     </ul>
                 </li>
                 <li><a href="blog.php">Blog</a></li>
