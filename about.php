@@ -745,7 +745,7 @@
                             <div id="faqSmm1" class="accordion-collapse collapse show"
                                 data-bs-parent="#faqAccordionSmm">
                                 <div class="accordion-body">
-                                    <p>MARKETENZA provides customized digital marketing strategies, transparent
+                                    <p class="p-3">MARKETENZA provides customized digital marketing strategies, transparent
                                         reporting, ethical SEO practices, and measurable business results tailored to
                                         your goals. </p>
                                 </div>
@@ -761,7 +761,7 @@
                             </h2>
                             <div id="faqSmm2" class="accordion-collapse collapse" data-bs-parent="#faqAccordionSmm">
                                 <div class="accordion-body">
-                                    <p>We offer SEO, Local SEO, Google Ads, Social Media Marketing, Website Design &
+                                    <p class="p-3">We offer SEO, Local SEO, Google Ads, Social Media Marketing, Website Design &
                                         Development, Content Marketing, Lead Generation, Email Marketing, and Online
                                         Reputation Management. </p>
                                 </div>
@@ -777,7 +777,7 @@
                             </h2>
                             <div id="faqSmm3" class="accordion-collapse collapse" data-bs-parent="#faqAccordionSmm">
                                 <div class="accordion-body">
-                                    <p>Yes. We work with startups, SMEs, local businesses, and large enterprises by
+                                    <p class="p-3">Yes. We work with startups, SMEs, local businesses, and large enterprises by
                                         creating scalable marketing strategies that fit different budgets and business
                                         objectives. </p>
                                 </div>
@@ -792,7 +792,7 @@
                             </h2>
                             <div id="faqSmm4" class="accordion-collapse collapse" data-bs-parent="#faqAccordionSmm">
                                 <div class="accordion-body">
-                                    <p>SEO is a long-term investment. Most businesses start seeing improvements within
+                                    <p class="p-3">SEO is a long-term investment. Most businesses start seeing improvements within
                                         3–6 months, depending on competition, website quality, and industry. </p>
                                 </div>
                             </div>
@@ -806,7 +806,7 @@
                             </h2>
                             <div id="faqSmm5" class="accordion-collapse collapse" data-bs-parent="#faqAccordionSmm">
                                 <div class="accordion-body">
-                                    <p>5. Do you guarantee first-page Google rankings?
+                                    <p class="p-3">5. Do you guarantee first-page Google rankings?
 
                                         No ethical digital marketing agency can guarantee rankings. We follow Google's
                                         best practices and proven SEO techniques to improve your online visibility and
