@@ -92,40 +92,36 @@
                         <i class="fa-regular fa-circle-dot"></i>
                         <span>About MARKETENZA</span>
                     </div>
-                    <h2 class="title-heading animation-box anim-normal anim-delay-sm" data-animation="fade-left">Your
-                        Growth Partner for Digital Success </h2>
-                    <p>MARKETENZA is a performance-centered Noida Digital Marketing Agency committed to helping
-                        organizations succeed in cutting-edge aggressive virtual landscape. We understand that each
-                        business has precise desires, which is why we broaden customized advertising techniques rather
-                        than using standard answers. </p>
+                    <h2 class="title-heading animation-box anim-normal anim-delay-sm" data-animation="fade-left">
+                        Empowering Businesses with Innovative IT & Digital Solutions</h2>
+                    <p>At MARKETENZA, we help businesses grow with innovative technology and result-driven digital
+                        strategies. From custom website and mobile app development to digital marketing, branding, and
+                        business automation, we deliver end-to-end solutions tailored to your goals. Our experienced
+                        team combines creativity, technology, and data-driven insights to build powerful digital
+                        experiences that drive long-term success. </p>
                     <div class="d-flex flex-column flex-md-row gspace-2">
                         <div class="expertise-list">
                             <!-- <h3 class="heading-xs">What We Do Best</h3> -->
                             <ul class="check-list">
-                                <li><a href="single_services.php">Our group focuses on search engine marketing, Google
-                                        Ads, Social Media Marketing, Website Design & Development, Content Marketing,
-                                        and Lead Generation. We recognition on obvious techniques, continuous
-                                        optimization, and information-pushed campaigns to maximize ROI and deliver
-                                        measurable enterprise growth.
-                                    </a></li>
-                                <!-- <li><a href="single_services.php">We believe in transparency, continuous optimization, and measurable performance. Every campaign is monitored using real-time analytics to ensure maximum return on investment (ROI). Our approach is simple—understand your business, create a smart strategy, execute with precision, and continuously improve results.</a></li> -->
-                                <!-- <li><a href="single_services.php">Content Marketing</a></li>
-                                    <li><a href="single_services.php">PPC & Paid Ads</a></li>
-                                    <li><a href="single_services.php">Brand Strategy</a></li>
-                                    <li><a href="single_services.php">Conversion Optimization</a></li> -->
+                                  <li>Custom Website & Mobile App Development tailored to your business needs.</li>
+    <li>E-Commerce & Custom Website Solutions that scale with your growth.</li>
+   
+
+    <li>Secure, scalable, and high-performance digital solutions that drive measurable business success.</li>
+                           
                             </ul>
                         </div>
                         <div class="card card-expertise card-expertise-counter animation-box anim-normal anim-delay-sm"
                             data-animation="fade-up">
                             <div class="d-flex flex-row gspace-2 align-items-center">
                                 <div class="d-flex flex-row align-items-center">
-                                    <span class="counter" data-target="21"></span>
+                                    <span class="counter" data-target="5"></span>
                                     <span class="counter-detail">+</span>
                                 </div>
-                                <h4 class="heading-xxs">Years of Experience on Digital Marketing Services</h4>
+                                <h4 class="heading-xxs">Years of Excellence in IT & Digital Solutions</h4>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit in ex ligula varius at rutrum et
-                                finibus sed felis qisque.</p>
+                            <p>Let's build innovative digital solutions that accelerate your growth and help you stay
+                                ahead of the competition.</p>
                         </div>
                     </div>
                 </div>
@@ -147,10 +143,10 @@
                     <div class="sub-heading align-self-center animation-box anim-normal anim-delay-sm"
                         data-animation="fade-down">
                         <i class="fa-regular fa-circle-dot"></i>
-                        <span>Our  Services </span>
+                        <span>Our Services </span>
                     </div>
                     <h2 class="title-heading heading-container heading-container-medium animation-box anim-normal anim-delay-sm"
-                        data-animation="fade-down">Complete  MarketEnza Solutions  </h2>
+                        data-animation="fade-down">Complete MarketEnza Solutions </h2>
                 </div>
                 <div class="card-service-wrapper">
                     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 grid-spacer-2">
