@@ -7,11 +7,11 @@
 
         <div class="lead-modal-header text-center">
             <div class="lead-modal-badge">
-                <i class="fa-solid fa-bolt"></i> FREE DIGITAL GROWTH AUDIT
+                <i class="fa-solid fa-bolt"></i>  DIGITAL GROWTH AUDIT
             </div>
-            <h2 class="lead-modal-title">Take Your Brand To The Next Level!</h2>
+            <h2 class="lead-modal-title">Start Your Digital Journey Today!</h2>
             <p class="lead-modal-subtitle">
-                Fill in your details below to get a <strong>customized digital marketing strategy</strong> & free consultation from MARKETENZA experts.
+                Fill in your details below to get a <strong>customized digital marketing strategy</strong> 
             </p>
         </div>
 
