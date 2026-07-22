@@ -44,19 +44,34 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                                     </div>
                                     <div class="mega-dropdown-divider"></div>
                                     <div class="mega-services-grid">
-                                        <a href="performance-marketing.php" class="mega-service-card">
+                                        <a href="website-development.php" class="mega-service-card">
                                             <div class="mega-card-header">
                                                 <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-chart-line"></i>
+                                                    <i class="fa-solid fa-laptop-code"></i>
                                                 </div>
-                                                <h4 class="mega-card-title">Performance Marketing</h4>
+                                                <h4 class="mega-card-title">Website Development</h4>
                                             </div>
-                                            <p class="mega-card-desc">Data-driven ROI campaigns, PPC, search & display ads.</p>
+                                            <p class="mega-card-desc">Custom, fast, responsive & high-converting websites.</p>
                                             <div class="mega-card-link">
                                                 <span>EXPLORE SERVICE</span>
                                                 <i class="fa-solid fa-arrow-right"></i>
                                             </div>
                                         </a>
+                                         <a href="app-development.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper">
+                                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                                </div>
+                                                <h4 class="mega-card-title">Mobile App Development</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Native & cross-platform iOS & Android mobile applications.</p>
+                                            <div class="mega-card-link">
+                                                <span>EXPLORE SERVICE</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+
+                                      
 
                                         <a href="social-media-marketing.php" class="mega-service-card">
                                             <div class="mega-card-header">
@@ -86,47 +101,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                                             </div>
                                         </a>
 
-                                        <a href="website-development.php" class="mega-service-card">
-                                            <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-laptop-code"></i>
-                                                </div>
-                                                <h4 class="mega-card-title">Website Development</h4>
-                                            </div>
-                                            <p class="mega-card-desc">Custom, fast, responsive & high-converting websites.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE SERVICE</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
-                                        </a>
+                                      
 
-                                        <a href="app-development.php" class="mega-service-card">
-                                            <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-mobile-screen-button"></i>
-                                                </div>
-                                                <h4 class="mega-card-title">Mobile App Development</h4>
-                                            </div>
-                                            <p class="mega-card-desc">Native & cross-platform iOS & Android mobile applications.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE SERVICE</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
-                                        </a>
-
-                                        <a href="ecommerce-solutions.php" class="mega-service-card">
-                                            <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-cart-shopping"></i>
-                                                </div>
-                                                <h4 class="mega-card-title">E-Commerce Solutions</h4>
-                                            </div>
-                                            <p class="mega-card-desc">Scalable online stores, payment gateways & sales funnels.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE SERVICE</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
-                                        </a>
+                                       
 
                                         <a href="branding-creative-design.php" class="mega-service-card">
                                             <div class="mega-card-header">
@@ -156,33 +133,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                                             </div>
                                         </a>
 
-                                        <a href="analytics-business-intelligence.php" class="mega-service-card">
-                                            <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-chart-column"></i>
-                                                </div>
-                                                <h4 class="mega-card-title">Analytics & BI</h4>
-                                            </div>
-                                            <p class="mega-card-desc">Real-time insights, performance dashboards & data analytics.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE SERVICE</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
-                                        </a>
-
-                                        <a href="cloud-it-solutions.php" class="mega-service-card">
-                                            <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-cloud-arrow-up"></i>
-                                                </div>
-                                                <h4 class="mega-card-title">Cloud & IT Solutions</h4>
-                                            </div>
-                                            <p class="mega-card-desc">Secure cloud infrastructure, hosting & enterprise IT support.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE SERVICE</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
-                                        </a>
+                                      
                                     </div>
                                 </div>
                             </li>

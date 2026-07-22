@@ -227,6 +227,7 @@ h6,
 .heading-xxs {
   font-size: 20px;
   line-height: 1.5em;
+  margin-right: 8px;
 }
 
 h1,
@@ -708,7 +709,7 @@ body.lightmode .form select {
   flex-wrap: wrap;
   border-radius: 100px 100px 100px 100px;
   max-width: 100%;
-  width: 270px;
+  width: 250px;
   box-shadow: var(--box-shadow-top-left);
   height: auto;
   padding: 5px 5px 5px 5px;
