@@ -54,7 +54,7 @@
                                     </div>
                                     <div class="d-flex flex-column gspace-0">
                                         <span>Email Address</span>
-                                        <h3 class="heading-xs">hello@markoagency.com</h3>
+                                        <h3 class="heading-xs">marketenza@gmail.com</h3>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">

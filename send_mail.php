@@ -302,5 +302,6 @@ function buildContactEmailHTML($name, $email, $userSubject, $message) {
             </div>
         </div>
     </body>
+    
     </html>';
 }

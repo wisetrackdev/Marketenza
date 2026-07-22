@@ -213,7 +213,7 @@
                 <div class="sidebar-info-contact">
                     <i class="fa-solid fa-envelope sidebar-info-icon"></i>
                     <h5>Email Address</h5>
-                    <p>info@yourdomain.com</p>
+                    <p>marketenza@gmail.com</p>
                 </div>
                 <div class="sidebar-info-contact">
                     <i class="fa-solid fa-phone-alt sidebar-info-icon"></i>

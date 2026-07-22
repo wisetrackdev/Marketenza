@@ -52,7 +52,7 @@
                                 <div class="footer-contact-container">
                                     <h3 class="heading-xs">Contact Info</h3>
                                     <ul class="contact-list">
-                                        <li>hello@markoagency.com</li>
+                                        <li>marketenza@gmail.com</li>
                                         <li>+91 85274 30152</li>
                                         <!-- <li>+91 9315957014</li> -->
                                         <li>Noida</li>
