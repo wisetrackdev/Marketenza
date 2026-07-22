@@ -730,10 +730,8 @@
                             <i class="fa-regular fa-circle-dot"></i>
                             <span>Frequently Asked Questions</span>
                         </div>
-                        <h2 class="title-heading heading-md">Have Questions About Our Digital Marketing Services?</h2>
-                        <p>Find answers to the most common questions about SEO, website development, social media
-                            marketing, performance marketing, branding, lead generation, and how MARKETENZA helps
-                            businesses achieve sustainable digital growth.</p>
+                        <h2 class="title-heading heading-md">Everything You Need to Know</h2>
+                        <p>Get quick answers to common questions about our IT, software development, mobile apps, websites, and digital marketing services.</p>
                     </div>
                 </div>
                 <div class="col col-lg-7">
