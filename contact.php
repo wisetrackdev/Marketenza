@@ -30,7 +30,7 @@
                                     <span>Reach out to us</span>
                                 </div>
                                 <h2 class="title-heading">Get in Touch</h2>
-                                <p>Reach out to us for tailored digital solutions that drive results sollicitudin nec.</p>
+                                <p>Get in touch with our experts to turn your ideas into innovative digital solutions.</p>
                                 <div class="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
                                     <div>
                                         <div class="icon-wrapper">
@@ -41,7 +41,7 @@
                                     </div>
                                     <div class="d-flex flex-column">
                                         <span>Phone Number</span>
-                                        <h3 class="heading-xs">+1 (62) 987 7543</h3>
+                                        <h3 class="heading-xs">+91 85274 30152</h3>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
@@ -67,7 +67,7 @@
                                     </div>
                                     <div class="d-flex flex-column gspace-0">
                                         <span>Office Address</span>
-                                        <h3 class="heading-xs">Marko HQ - 902 Digital Lane, San Francisco, CA 94110, USA</h3>
+                                        <h3 class="heading-xs">Noida</h3>
                                     </div>
                                 </div>
                             </div>
