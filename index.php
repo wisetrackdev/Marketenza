@@ -480,65 +480,67 @@
             <div class="d-flex flex-column flex-lg-row gspace-5">
                 <div class="chooseus-card-container">
                     <div class="d-flex flex-column gspace-2">
+                        <!-- Card 1 -->
                         <div class="card card-chooseus animation-box anim-fast anim-delay-none"
                             data-animation="fade-right">
                             <div class="chooseus-icon-wrapper">
                                 <div class="chooseus-spacer above"></div>
                                 <div class="chooseus-icon-layout">
                                     <div class="chooseus-icon">
-                                        <img src="image/Icon-2.png" alt="Why Choose Us Icon" class="img-fluid">
+                                        <i class="fa-solid fa-bullhorn"></i>
                                     </div>
                                 </div>
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">Campaign Execution </h4>
-                                <p>We implement search engine marketing, paid advertising, social media, and content
-                                    material advertising campaigns with precision. </p>
+                                <h4 class="chooseus-title">Campaign Execution</h4>
+                                <p>We implement search engine marketing, paid advertising, social media, and content marketing campaigns with precision.</p>
                                 <div class="link-wrapper">
-                                    <a href="#">Read More</a>
+                                    <a href="service.php">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Card 2 -->
                         <div class="card card-chooseus animation-box anim-normal anim-delay-sm"
                             data-animation="fade-right">
                             <div class="chooseus-icon-wrapper">
                                 <div class="chooseus-spacer above"></div>
                                 <div class="chooseus-icon-layout">
                                     <div class="chooseus-icon">
-                                        <img src="image/icon-1.png" alt="Why Choose Us Icon" class="img-fluid">
+                                        <i class="fa-solid fa-magnifying-glass-chart"></i>
                                     </div>
                                 </div>
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">Performance Monitoring </h4>
-                                <p>Using superior analytics and reporting tools, we continuously display marketing
-                                    campaign performance and optimize techniques.</p>
+                                <h4 class="chooseus-title">Performance Monitoring</h4>
+                                <p>Using advanced analytics and reporting tools, we continuously monitor campaign performance and optimize strategies.</p>
                                 <div class="link-wrapper">
-                                    <a href="#">Read More</a>
+                                    <a href="service.php">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Card 3 -->
                         <div class="card card-chooseus animation-box anim-slow anim-delay-md"
                             data-animation="fade-right">
                             <div class="chooseus-icon-wrapper">
                                 <div class="chooseus-spacer above"></div>
                                 <div class="chooseus-icon-layout">
                                     <div class="chooseus-icon">
-                                        <img src="image/Icon-3.png" alt="Why Choose Us Icon" class="img-fluid">
+                                        <i class="fa-solid fa-arrow-trend-up"></i>
                                     </div>
                                 </div>
                                 <div class="chooseus-spacer below"></div>
                             </div>
                             <div class="chooseus-content">
-                                <h4 class="chooseus-title">Business Growth </h4>
-                                <p>Our data-pushed technique facilitates boom internet site traffic, leads, sales, and
-                                    basic go back on funding. </p>
+                                <h4 class="chooseus-title">Business Growth</h4>
+                                <p>Our data-driven marketing approach scales your business, increasing website traffic, qualified leads, and overall ROI.</p>
                                 <div class="link-wrapper">
-                                    <a href="#">Read More</a>
+                                    <a href="service.php">Read More</a>
                                     <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                 </div>
                             </div>
@@ -550,14 +552,12 @@
                         <div class="d-flex flex-column gspace-2">
                             <div class="sub-heading animation-box anim-normal anim-delay-sm" data-animation="fade-down">
                                 <i class="fa-regular fa-circle-dot"></i>
-                                <span>Our Process </span>
+                                <span>Our Process</span>
                             </div>
                             <h2 class="title-heading animation-box anim-normal anim-delay-sm"
-                                data-animation="fade-down">How We Help Your Business Grow </h2>
+                                data-animation="fade-down">How We Help Your Business Grow</h2>
                             <p class="mb-0 animation-box anim-normal anim-delay-sm" data-animation="fade-down">
-                                <b>Business Analysis</b> <br>We recognize your business, industry, competition, and
-                                audience. <br> <br> <b>Strategy Planning </b> <br>Our specialists create a custom
-                                designed virtual marketing roadmap aligned together with your targets.
+                                <b>1. Business & Market Analysis</b><br>We analyze your business model, target audience, industry trends, and competitors to identify growth channels.<br><br><b>2. Strategy & Roadmap Planning</b><br>Our digital marketing experts craft a tailored execution roadmap designed to maximize conversions and brand reach.
                             </p>
                         </div>
                         <div class="image-container">
@@ -570,8 +570,7 @@
                                     <div class="card-chooseus-cta-wrapper">
                                         <div class="card card-chooseus-cta animation-box anim-normal anim-delay-sm"
                                             data-animation="fade-up">
-                                            <h3 class="heading-xs">Partner with Marko & take your brand to the next
-                                                level.</h3>
+                                            <h3 class="heading-xs">Partner with <strong>MARKETENZA</strong> & take your brand to the next level.</h3>
                                             <div class="link-wrapper">
                                                 <a href="contact.php">Let's Talk Strategy</a>
                                                 <i class="fa-solid fa-circle-arrow-right"></i>

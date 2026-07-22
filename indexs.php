@@ -260,7 +260,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="image/Icon-2.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <i class="fa-solid fa-sliders"></i>
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -269,7 +269,7 @@
                                     <h4 class="chooseus-title">Customized Marketing Strategies</h4>
                                     <p>We don't believe in one-size-fits-all. Every campaign is built around your business goals, industry, and target audience for maximum impact.</p>
                                     <div class="link-wrapper">
-                                        <a href="#">Read More</a>
+                                        <a href="service.php">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -279,7 +279,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="image/icon-1.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <i class="fa-solid fa-shield-halved"></i>
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -288,7 +288,7 @@
                                     <h4 class="chooseus-title">Ethical White-Hat SEO</h4>
                                     <p>We follow Google's best practices with ethical, white-hat SEO techniques that build sustainable, long-term rankings—not shortcuts that put your site at risk.</p>
                                     <div class="link-wrapper">
-                                        <a href="#">Read More</a>
+                                        <a href="service.php">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -298,7 +298,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="image/Icon-3.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <i class="fa-solid fa-chart-pie"></i>
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -307,7 +307,7 @@
                                     <h4 class="chooseus-title">Transparent Monthly Reporting</h4>
                                     <p>Detailed, transparent reports every month covering traffic, rankings, leads, and conversions—so you always know exactly where your investment is going.</p>
                                     <div class="link-wrapper">
-                                        <a href="#">Read More</a>
+                                        <a href="service.php">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
