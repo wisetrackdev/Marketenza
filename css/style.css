@@ -3981,6 +3981,18 @@ body.lightmode .newsletter-layout {
   object-position: center;
 }
 
+.chooseus-icon i {
+  font-size: 32px;
+  color: var(--accent-color);
+  transition: all 0.3s ease;
+}
+
+.chooseus-icon:hover i,
+.card-chooseus:hover .chooseus-icon i {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
 .chooseus-icon:hover {
   box-shadow: var(--box-shadow-bottom-right);
 }

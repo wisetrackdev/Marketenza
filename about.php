@@ -317,8 +317,7 @@
 
                                 <div class="chooseus-icon-layout">
                                     <div class="chooseus-icon">
-                                        <img src="image/Icon-2.png" alt="Customized Digital Marketing Strategy"
-                                            class="img-fluid">
+                                        <i class="fa-solid fa-sliders"></i>
                                     </div>
                                 </div>
 
@@ -332,9 +331,9 @@
                                 </h4>
 
                                 <p>
-                                    Every business is unique, so we create <strong>customized digital marketing
-                                        strategies</strong> based on your business goals, industry, competitors, and
-                                    target audience.
+                                    Every business is unique. We craft <strong>tailored digital marketing
+                                        strategies</strong> based on your business goals, target audience, industry
+                                    trends, and competitor analysis to maximize growth.
                                 </p>
 
                             </div>
@@ -350,7 +349,7 @@
 
                                 <div class="chooseus-icon-layout">
                                     <div class="chooseus-icon">
-                                        <img src="image/icon-1.png" alt="Google SEO Best Practices" class="img-fluid">
+                                        <i class="fa-solid fa-magnifying-glass-chart"></i>
                                     </div>
                                 </div>
 
@@ -364,9 +363,9 @@
                                 </h4>
 
                                 <p>
-                                    Our team follows <strong>White-Hat SEO techniques</strong>, Google's latest
-                                    algorithm updates, and industry best practices to deliver sustainable search engine
-                                    rankings.
+                                    We follow strict <strong>White-Hat SEO techniques</strong> and stay updated with
+                                    Google's latest algorithm updates to secure high search rankings, increase organic
+                                    traffic, and build brand authority.
                                 </p>
 
                             </div>
@@ -382,7 +381,7 @@
 
                                 <div class="chooseus-icon-layout">
                                     <div class="chooseus-icon">
-                                        <img src="image/Icon-3.png" alt="ROI Focused Campaigns" class="img-fluid">
+                                        <i class="fa-solid fa-chart-line"></i>
                                     </div>
                                 </div>
 
@@ -396,9 +395,9 @@
                                 </h4>
 
                                 <p>
-                                    We continuously monitor and optimize campaigns to improve <strong>traffic</strong>,
-                                    <strong>lead generation</strong>, <strong>conversion rates</strong>, and maximize
-                                    your <strong>return on investment (ROI)</strong>.
+                                    Our data-driven campaigns continuously track and optimize key metrics to improve
+                                    <strong>lead generation</strong>, <strong>conversion rates</strong>, and deliver
+                                    maximum <strong>return on investment (ROI)</strong>.
                                 </p>
 
                             </div>
@@ -423,15 +422,13 @@
 
                             <h2 class="title-heading animation-box anim-normal anim-delay-sm"
                                 data-animation="fade-down">
-                                Your Trusted <strong>Digital Marketing Partner</strong> for Sustainable Business Growth
-                            </h2>
+                                Innovative IT & Digital Solutions That Drive Success </h2>
 
                             <p class="mb-0 animation-box anim-normal anim-delay-sm" data-animation="fade-down">
-                                As one of the <strong>Top Digital Marketing Agencies in India</strong>, MARKETENZA
-                                focuses on building long-term partnerships through transparency, innovation, and
-                                measurable results. We believe that digital marketing is not just about increasing
-                                website traffic—it is about attracting the right audience and converting them into loyal
-                                customers.
+                                We specialize in developing high-performance websites, mobile applications, custom
+                                software, and result-driven digital marketing strategies. With a customer-first
+                                approach, cutting-edge technology, and a commitment to excellence, we help businesses
+                                build a strong digital presence and achieve sustainable growth.
                             </p>
 
                         </div>
