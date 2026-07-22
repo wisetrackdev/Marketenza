@@ -1537,10 +1537,8 @@
                             <i class="fa-regular fa-circle-dot"></i>
                             <span>Frequently Asked Questions</span>
                         </div>
-                        <h2 class="title-heading heading-md">Have Questions About Our Digital Marketing Services?</h2>
-                        <p>Find answers to the most common questions about SEO, website development, social media
-                            marketing, performance marketing, branding, lead generation, and how MARKETENZA helps
-                            businesses achieve sustainable digital growth.</p>
+                        <h2 class="title-heading heading-md">Everything You Need to Know</h2>
+                        <p>Get quick answers to common questions about our IT, software development, mobile apps, websites, and digital marketing services.</p>
                     </div>
                 </div>
                 <div class="col col-lg-7">
@@ -1549,15 +1547,14 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqSmm1" aria-expanded="true" aria-controls="faqSmm1">
-                                    1. Why ought to I pick out MARKETENZA as my Noida Digital Marketing Agency?
-                                </button>
+                                    1. Why should I choose MARKETENZA? </button>
                             </h2>
                             <div id="faqSmm1" class="accordion-collapse collapse show"
                                 data-bs-parent="#faqAccordionSmm">
                                 <div class="accordion-body">
-                                    <p>MARKETENZA gives custom designed digital advertising and marketing techniques,
-                                        transparent reporting, skilled professionals, and ROI-focused campaigns designed
-                                        to help your enterprise develop on line. </p>
+                                    <p class="p-3">MARKETENZA provides customized digital marketing strategies, transparent
+                                        reporting, ethical SEO practices, and measurable business results tailored to
+                                        your goals. </p>
                                 </div>
                             </div>
                         </div>
@@ -1566,15 +1563,14 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqSmm2" aria-expanded="false" aria-controls="faqSmm2">
-                                    2. How lengthy does search engine marketing take to expose consequences?
-
+                                    2. What services do you offer?
                                 </button>
                             </h2>
                             <div id="faqSmm2" class="accordion-collapse collapse" data-bs-parent="#faqAccordionSmm">
                                 <div class="accordion-body">
-                                    <p>Search engine optimization is a long-term strategy. Most companies start seeing
-                                        significant enhancements inside three to six months, depending on opposition,
-                                        website satisfactory, and enterprise.</p>
+                                    <p class="p-3">We offer SEO, Local SEO, Google Ads, Social Media Marketing, Website Design &
+                                        Development, Content Marketing, Lead Generation, Email Marketing, and Online
+                                        Reputation Management. </p>
                                 </div>
                             </div>
                         </div>
@@ -1583,15 +1579,14 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqSmm3" aria-expanded="false" aria-controls="faqSmm3">
-                                    3. Do you assure first-web page scores on Google?
-
+                                    3. Do you work with startups and small businesses?
                                 </button>
                             </h2>
                             <div id="faqSmm3" class="accordion-collapse collapse" data-bs-parent="#faqAccordionSmm">
                                 <div class="accordion-body">
-                                    <p>No ethical organisation can assure first-web page ratings. We follow Google's
-                                        exceptional practices and demonstrated search engine marketing techniques to
-                                        improve your internet site's visibility and long-term overall performance. </p>
+                                    <p class="p-3">Yes. We work with startups, SMEs, local businesses, and large enterprises by
+                                        creating scalable marketing strategies that fit different budgets and business
+                                        objectives. </p>
                                 </div>
                             </div>
                         </div>
@@ -1599,15 +1594,13 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqSmm4" aria-expanded="false" aria-controls="faqSmm4">
-                                    4. What virtual advertising offerings do you provide?
-
+                                    4. How long does SEO take to show results?
                                 </button>
                             </h2>
                             <div id="faqSmm4" class="accordion-collapse collapse" data-bs-parent="#faqAccordionSmm">
                                 <div class="accordion-body">
-                                    <p>We offer SEO, Google Ads (PPC), Social Media Marketing, Website Design &
-                                        Development, Content Marketing, Local SEO, Online Reputation Management, and
-                                        Lead Generation offerings.</p>
+                                    <p class="p-3">SEO is a long-term investment. Most businesses start seeing improvements within
+                                        3–6 months, depending on competition, website quality, and industry. </p>
                                 </div>
                             </div>
                         </div>
@@ -1615,14 +1608,16 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#faqSmm5" aria-expanded="false" aria-controls="faqSmm5">
-                                    5. Do you work with small groups and startups?
-
+                                    5. Do you guarantee first-page Google rankings?
                                 </button>
                             </h2>
                             <div id="faqSmm5" class="accordion-collapse collapse" data-bs-parent="#faqAccordionSmm">
                                 <div class="accordion-body">
-                                    <p>Yes. We work with startups, neighborhood agencies, SMEs, and huge enterprises via
-                                        developing advertising strategies that healthy their goals and price range.</p>
+                                    <p class="p-3">5. Do you guarantee first-page Google rankings?
+
+                                        No ethical digital marketing agency can guarantee rankings. We follow Google's
+                                        best practices and proven SEO techniques to improve your online visibility and
+                                        long-term performance. </p>
                                 </div>
                             </div>
                         </div>
@@ -1631,6 +1626,7 @@
             </div>
         </div>
     </div>
+
 </main>
 
 <?php include 'lead_modal.php'; ?>
