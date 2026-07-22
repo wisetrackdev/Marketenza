@@ -7,7 +7,7 @@
             <div class="hero-container position-relative">
                 <div class="d-flex flex-column gspace-2">
                     <h1 class="title-heading-banner animation-box anim-normal anim-delay-sm gm-h1"
-                        data-animation="fade-right">Noida Digital Marketing Agency – Grow Your Business with MARKETENZA
+                        data-animation="fade-right">Build. Grow. Succeed <br> with MARKETENZA
                     </h1>
                     <div class="banner-heading">
                         <div class="banner-video-content order-lg-1 order-2 animation-box anim-normal anim-delay-sm"
@@ -24,11 +24,7 @@
                         </div>
                         <div class="banner-content order-lg-2 order-1 animation-box anim-normal anim-delay-sm"
                             data-animation="fade-left">
-                            <p>At MARKETENZA, we assist organizations grow with result-pushed digital advertising and
-                                marketing strategies that boom on-line visibility, generate satisfactory leads, and
-                                force sustainable increase. As a relied on Noida Digital Marketing Agency, we combine
-                                creativity, era, and information-pushed insights to deliver measurable consequences and
-                                assist your business achieve long-time period fulfillment.
+                            <p>From innovative web and mobile app development to branding, SEO, and digital marketing, we create scalable digital solutions that help your business stay ahead of the competition.
                             </p>
                             <div
                                 class="d-flex flex-md-row flex-column justify-content-center justify-content-lg-start align-self-center align-self-lg-start gspace-3">
