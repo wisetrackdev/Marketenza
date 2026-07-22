@@ -30,7 +30,7 @@
                                     <div class="card card-about animation-box anim-normal anim-delay-sm"
                                         data-animation="fade-down">
                                         <div class="d-flex flex-row align-items-center">
-                                            <span class="counter" data-target="21"></span>
+                                            <span class="counter" data-target="5"></span>
                                             <span class="counter-detail">+</span>
                                         </div>
                                         <span class="heading-xxs">
@@ -133,9 +133,9 @@
                             <h3>Our Mission</h3>
 
                             <p>
-                                Our mission is to empower businesses with <strong>innovative digital marketing
-                                    solutions</strong> that drive measurable growth, generate quality leads, and build
-                                strong online brands through result-driven strategies.
+                                To empower businesses with innovative IT solutions and result-driven digital marketing
+                                services that enhance efficiency, strengthen online presence, and accelerate sustainable
+                                growth through technology and creativity.
                             </p>
 
                         </div>
@@ -149,9 +149,9 @@
                             <h3>Our Vision</h3>
 
                             <p>
-                                Our vision is to become one of the <b>top digital marketing agencies in India</b> by
-                                helping businesses embrace digital transformation through creativity, innovation, and
-                                performance-driven marketing strategies that deliver sustainable success.
+                                To become a trusted global technology partner by delivering cutting-edge digital
+                                solutions that inspire innovation, transform businesses, and create lasting value for
+                                our clients.
                         </div>
 
                         <div class="mission-card">
@@ -163,8 +163,8 @@
                             <h3>Our Values</h3>
 
                             <p>
-                                Integrity, innovation, transparency, collaboration and customer-centric
-                                solutions are the foundation of everything we do.
+                                We are committed to delivering high-quality services with precision, performance, and
+                                reliability.
                             </p>
 
                         </div>
@@ -194,7 +194,7 @@
                             </div>
 
                             <h3 class="title-heading">
-                               Innovative IT & Digital Solutions Company</strong>
+                                Innovative IT & Digital Solutions Company</strong>
                             </h3>
 
                         </div>
@@ -205,7 +205,7 @@
                         <div class="d-flex flex-column ps-lg-3 ps-0">
 
                             <p>
-                                <strong>MARKETENZA</strong>  is a leading IT and Digital Solutions company
+                                <strong>MARKETENZA</strong> is a leading IT and Digital Solutions company
                                 providing website development, mobile app development, custom software, UI/UX design,
                                 and digital marketing services. We combine creativity, technology, and innovation to
                                 deliver scalable solutions that help businesses grow faster.
@@ -825,7 +825,7 @@
         </div>
     </div>
 
-  
+
 </main>
 
 <?php include 'footer.php'; ?>
