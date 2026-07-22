@@ -1196,4 +1196,5 @@
         </div>
     </main>
 
+   <?php include 'lead_modal.php'; ?>
    <?php include 'footer.php'; ?>
