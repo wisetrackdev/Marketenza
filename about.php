@@ -656,7 +656,7 @@ include 'header.php';
                                     </div>
                                 </div>
                                 <div class="team-profile">
-                                    <h3 class="heading-sm">Jordan Lee</h3>
+                                    <h3 class="heading-sm">Dev Kumar</h3>
                                     <span class="title">Head of Creative</span>
                                 </div>
                             </div>
@@ -684,7 +684,7 @@ include 'header.php';
                                     </div>
                                 </div>
                                 <div class="team-profile">
-                                    <h3 class="heading-sm">Chloe Tan</h3>
+                                    <h3 class="heading-sm">Aradhna Pal</h3>
                                     <span class="title">Senior SEO Specialist</span>
                                 </div>
                             </div>
@@ -712,7 +712,7 @@ include 'header.php';
                                     </div>
                                 </div>
                                 <div class="team-profile">
-                                    <h3 class="heading-sm">Daniel Cruz</h3>
+                                    <h3 class="heading-sm">Gorvind </h3>
                                     <span class="title">Performance Marketing Lead</span>
                                 </div>
                             </div>
