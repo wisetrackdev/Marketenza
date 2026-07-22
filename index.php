@@ -147,10 +147,10 @@
                     <div class="sub-heading align-self-center animation-box anim-normal anim-delay-sm"
                         data-animation="fade-down">
                         <i class="fa-regular fa-circle-dot"></i>
-                        <span>Our Digital Marketing Services </span>
+                        <span>Our  Services </span>
                     </div>
                     <h2 class="title-heading heading-container heading-container-medium animation-box anim-normal anim-delay-sm"
-                        data-animation="fade-down">Complete Digital Marketing Solutions Under One Roof </h2>
+                        data-animation="fade-down">Complete  MarketEnza Solutions  </h2>
                 </div>
                 <div class="card-service-wrapper">
                     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 grid-spacer-2">
