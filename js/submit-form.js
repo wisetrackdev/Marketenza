@@ -2,9 +2,11 @@ function initSubmitContact() {
     $('#contact-form').on('submit', function (event) {
         event.preventDefault();
 
+        var $form = $(this);
         var $email = $('#email');
         var $successMessage = $('#success-message');
         var $errorMessage = $('#error-message');
+        var $submitBtn = $('#contact-submit-btn');
 
         function validateEmail(email) {
             var pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -12,23 +14,60 @@ function initSubmitContact() {
         }
 
         if (!validateEmail($email.val())) {
+            $errorMessage.find('p').text('Please enter a valid email address.');
             $errorMessage.removeClass('hidden');
             $successMessage.addClass('hidden');
 
             setTimeout(function () {
                 $errorMessage.addClass('hidden');
-            }, 3000);
+            }, 3500);
 
             return;
-        } else {
-            $errorMessage.addClass('hidden');
-            $successMessage.removeClass('hidden');
-            $('#contact-form')[0].reset();
-
-            setTimeout(function () {
-                $successMessage.addClass('hidden');
-            }, 3000);
         }
+
+        // Disable button while sending
+        $submitBtn.prop('disabled', true).css('opacity', '0.7');
+        var originalBtnHtml = $submitBtn.html();
+        $submitBtn.find('.btn-title span').text('Sending...');
+
+        $.ajax({
+            type: 'POST',
+            url: 'send_mail.php',
+            data: $form.serialize(),
+            dataType: 'json',
+            success: function (response) {
+                $submitBtn.prop('disabled', false).css('opacity', '1').html(originalBtnHtml);
+
+                if (response.status === 'success') {
+                    $errorMessage.addClass('hidden');
+                    $successMessage.find('p').text(response.message);
+                    $successMessage.removeClass('hidden');
+                    $form[0].reset();
+
+                    setTimeout(function () {
+                        $successMessage.addClass('hidden');
+                    }, 5000);
+                } else {
+                    $successMessage.addClass('hidden');
+                    $errorMessage.find('p').text(response.message || 'Submission failed. Please try again.');
+                    $errorMessage.removeClass('hidden');
+
+                    setTimeout(function () {
+                        $errorMessage.addClass('hidden');
+                    }, 5000);
+                }
+            },
+            error: function () {
+                $submitBtn.prop('disabled', false).css('opacity', '1').html(originalBtnHtml);
+                $successMessage.addClass('hidden');
+                $errorMessage.find('p').text('Network error. Unable to send email.');
+                $errorMessage.removeClass('hidden');
+
+                setTimeout(function () {
+                    $errorMessage.addClass('hidden');
+                }, 5000);
+            }
+        });
     });
 }
 

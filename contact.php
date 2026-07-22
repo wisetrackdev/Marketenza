@@ -86,7 +86,8 @@
                         <div class="form-layout-wrapper">
                             <div class="card form-layout">
                                 <h3 class="title-heading">Let's Talk About Your Next Project</h3>
-                                <form action="https://marko.foxcreation.net/php/form_process.php" method="post" id="contact-form" class="form">
+                                <form action="send_mail.php" method="post" id="contact-form" class="form">
+                                    <input type="hidden" name="form_type" value="contact">
                                     <div class="row row-cols-md-2 row-cols-1 g-3">
                                         <div class="col">
                                             <input type="text" name="first-name" id="first-name" placeholder="First Name">
@@ -103,9 +104,9 @@
                                             <input type="text" name="subject" id="subject" placeholder="Subject">
                                         </div>
                                     </div>
-                                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                                    <textarea name="message" id="message" rows="5" placeholder="Message" required></textarea>
                                     <div class="form-button-container">
-                                        <button type="submit" class="btn btn-accent">
+                                        <button type="submit" class="btn btn-accent" id="contact-submit-btn">
                                             <span class="btn-title">
                                                 <span>Send a Message</span>
                                             </span>

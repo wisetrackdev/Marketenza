@@ -7,15 +7,16 @@
 
         <div class="lead-modal-header text-center">
             <div class="lead-modal-badge">
-                <i class="fa-solid fa-bolt"></i>  DIGITAL GROWTH AUDIT
+                <i class="fa-solid fa-bolt"></i> FREE DIGITAL GROWTH AUDIT
             </div>
-            <h2 class="lead-modal-title">Start Your Digital Journey Today!</h2>
+            <h2 class="lead-modal-title">Take Your Brand To The Next Level!</h2>
             <p class="lead-modal-subtitle">
-                Fill in your details below to get a <strong>customized digital marketing strategy</strong> 
+                Fill in your details below to get a <strong>customized digital marketing strategy</strong> & free consultation from MARKETENZA experts.
             </p>
         </div>
 
-        <form id="leadCaptureForm" class="lead-modal-form" action="#" method="POST">
+        <form id="leadCaptureForm" class="lead-modal-form" action="send_mail.php" method="POST">
+            <input type="hidden" name="form_type" value="lead_modal">
             <div class="lead-form-grid">
                 
                 <!-- Full Name -->
@@ -76,7 +77,7 @@
 
             <!-- Form Footer -->
             <div class="lead-modal-footer">
-                <button type="submit" class="btn btn-accent lead-submit-btn">
+                <button type="submit" class="btn btn-accent lead-submit-btn" id="leadModalSubmitBtn">
                     <div class="btn-title">
                         <span>Get Free Strategy Call</span>
                     </div>
@@ -100,6 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const closeBtn = document.getElementById("closeLeadModal");
     const leadForm = document.getElementById("leadCaptureForm");
     const responseMsg = document.getElementById("leadFormResponse");
+    const submitBtn = document.getElementById("leadModalSubmitBtn");
 
     // Auto-open modal on page load after a smooth short delay
     setTimeout(function () {
@@ -138,20 +140,54 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Form Submission Handling
+    // Form Submission via SMTP AJAX
     if (leadForm) {
         leadForm.addEventListener("submit", function (e) {
             e.preventDefault();
-            responseMsg.className = "lead-response-msg success";
-            responseMsg.innerHTML = '<i class="fa-solid fa-circle-check"></i> Thank you! Our strategy expert will contact you shortly.';
-            
-            leadForm.reset();
 
-            // Auto close after 2.5 seconds
-            setTimeout(function () {
-                closePopupModal();
-                responseMsg.innerHTML = "";
-            }, 2500);
+            // Disable button & show loading text
+            submitBtn.disabled = true;
+            submitBtn.style.opacity = "0.7";
+            const originalBtnTitle = submitBtn.querySelector(".btn-title span").innerText;
+            submitBtn.querySelector(".btn-title span").innerText = "Sending...";
+
+            responseMsg.className = "lead-response-msg";
+            responseMsg.innerHTML = "";
+
+            const formData = new FormData(leadForm);
+
+            fetch("send_mail.php", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                submitBtn.disabled = false;
+                submitBtn.style.opacity = "1";
+                submitBtn.querySelector(".btn-title span").innerText = originalBtnTitle;
+
+                if (data.status === "success") {
+                    responseMsg.className = "lead-response-msg success";
+                    responseMsg.innerHTML = '<i class="fa-solid fa-circle-check"></i> ' + data.message;
+                    leadForm.reset();
+
+                    // Auto close after 2.5 seconds
+                    setTimeout(function () {
+                        closePopupModal();
+                        responseMsg.innerHTML = "";
+                    }, 2500);
+                } else {
+                    responseMsg.className = "lead-response-msg error";
+                    responseMsg.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> ' + (data.message || "Failed to send lead. Please try again.");
+                }
+            })
+            .catch(error => {
+                submitBtn.disabled = false;
+                submitBtn.style.opacity = "1";
+                submitBtn.querySelector(".btn-title span").innerText = originalBtnTitle;
+                responseMsg.className = "lead-response-msg error";
+                responseMsg.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Network error. Please try again.';
+            });
         });
     }
 });
