@@ -1,6 +1,6 @@
 <?php 
-$page_seo_title = "About Marketenza | Full-Service SEO & Tech Development Agency";
-$page_meta_desc = "Learn about Marketenza, a leading digital marketing agency & software house in Noida delivering high-ROAS SEO, custom web & mobile apps.";
+$page_seo_title = "About Marketenza | Full-Service SEO & Tech Development  ";
+$page_meta_desc = "Learn about Marketenza, a leading digital marketing   & software house in Noida delivering high-ROAS SEO, custom web & mobile apps.";
 include 'header.php'; 
 ?>
 
@@ -812,7 +812,7 @@ include 'header.php';
                                 <div class="accordion-body">
                                     <p class="p-3">5. Do you guarantee first-page Google rankings?
 
-                                        No ethical digital marketing agency can guarantee rankings. We follow Google's
+                                        No ethical digital marketing   can guarantee rankings. We follow Google's
                                         best practices and proven SEO techniques to improve your online visibility and
                                         long-term performance. </p>
                                 </div>

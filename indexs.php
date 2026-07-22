@@ -12,11 +12,11 @@
                                 <div class="d-flex flex-column flex-lg-row text-lg-start text-center align-items-center gspace-5">
                                     <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
                                     <p>
-                                  A Trusted Noida Digital Marketing Agency Helping Brands Grow Online   </p>
+                                  A Trusted Noida Digital Marketing   Helping Brands Grow Online   </p>
                                 </div>
                             </div>
                             <div class="banner-content order-lg-2 order-1 animation-box anim-normal anim-delay-sm" data-animation="fade-left">
-                                <p>At MARKETENZA, we help businesses build a strong online presence through innovative digital marketing strategies designed to increase visibility, generate qualified leads, and drive sustainable growth. As a trusted Noida Digital Marketing Agency, we combine creativity, technology, and data-driven insights to deliver measurable results for startups, small businesses, and enterprises across India. <br>Whether you want to rank higher on Google, generate more leads, increase website traffic, or build a powerful brand on social media, our experienced team creates customized marketing solutions that align with your business goals. </p>
+                                <p>At MARKETENZA, we help businesses build a strong online presence through innovative digital marketing strategies designed to increase visibility, generate qualified leads, and drive sustainable growth. As a trusted Noida Digital Marketing  , we combine creativity, technology, and data-driven insights to deliver measurable results for startups, small businesses, and enterprises across India. <br>Whether you want to rank higher on Google, generate more leads, increase website traffic, or build a powerful brand on social media, our experienced team creates customized marketing solutions that align with your business goals. </p>
                                 <div class="d-flex flex-md-row flex-column justify-content-center justify-content-lg-start align-self-center align-self-lg-start gspace-3">
                                     <a href="about.php" class="btn btn-accent">
                                         <div class="btn-title">
@@ -77,7 +77,7 @@
                             <span>Our Expertise</span>
                         </div>
                         <h2 class="title-heading animation-box anim-normal anim-delay-sm" data-animation="fade-left">Your Growth Partner for Digital Success</h2>
-                        <p>MARKETENZA is a performance-focused Noida Digital Marketing Agency dedicated to helping businesses succeed in today's competitive digital landscape. We understand every business has unique goals, which is why we develop personalized marketing strategies instead of generic solutions.</p>
+                        <p>MARKETENZA is a performance-focused Noida Digital Marketing   dedicated to helping businesses succeed in today's competitive digital landscape. We understand every business has unique goals, which is why we develop personalized marketing strategies instead of generic solutions.</p>
                         <div class="d-flex flex-column flex-md-row gspace-2">
                             <div class="expertise-list">
                                 <h3 class="heading-xs">What We Do Best</h3>
@@ -1054,7 +1054,7 @@
                         <div class="col">
                             <div class="card card-service animation-box anim-normal anim-delay-sm" data-animation="fade-up">
                                 <h3 class="heading-sm">Do you guarantee first-page rankings on Google?</h3>
-                                <p>No ethical agency can guarantee first-page rankings. We follow Google's best practices and proven SEO strategies to improve visibility and long-term performance.</p>
+                                <p>No ethical   can guarantee first-page rankings. We follow Google's best practices and proven SEO strategies to improve visibility and long-term performance.</p>
                             </div>
                         </div>
                         <div class="col">

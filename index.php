@@ -1,6 +1,6 @@
 <?php 
-$page_seo_title = "Marketenza | Best SEO Agency, Web & App Development Company in Noida";
-$page_meta_desc = "Grow your business online with Marketenza. Top SEO agency, custom website designing, mobile app development & digital marketing services in Noida, India.";
+$page_seo_title = "Marketenza | Best SEO  , Web & App Development Company in Noida";
+$page_meta_desc = "Grow your business online with Marketenza. Top SEO  , custom website designing, mobile app development & digital marketing services in Noida, India.";
 include 'header.php'; 
 ?>
 
@@ -474,7 +474,7 @@ include 'header.php';
                         </div>
                     </div>
                     <p class="gm-p"> Our commitment to fine, innovation, and measurable success has made us a preferred
-                        Noida Digital Marketing Agency for companies trying to reap sustainable virtual boom. </p>
+                        Noida Digital Marketing   for companies trying to reap sustainable virtual boom. </p>
                 </div>
             </div>
         </div>
@@ -1474,13 +1474,13 @@ include 'header.php';
 
         <div class="faq-item">
             <button class="faq-question">
-                <span>What does an SEO agency do?</span>
+                <span>What does an SEO   do?</span>
                 <i class="fa-solid fa-plus"></i>
             </button>
 
             <div class="faq-answer">
                 <p>
-                    An SEO agency improves your website rankings, drives organic traffic, optimizes website performance, and increases online visibility to generate quality leads.
+                    An SEO   improves your website rankings, drives organic traffic, optimizes website performance, and increases online visibility to generate quality leads.
                 </p>
             </div>
         </div>
@@ -1618,7 +1618,7 @@ include 'header.php';
                                 <div class="accordion-body">
                                     <p class="p-3">5. Do you guarantee first-page Google rankings?
 
-                                        No ethical digital marketing agency can guarantee rankings. We follow Google's
+                                        No ethical digital marketing   can guarantee rankings. We follow Google's
                                         best practices and proven SEO techniques to improve your online visibility and
                                         long-term performance. </p>
                                 </div>

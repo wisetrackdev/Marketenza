@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
-        $page_title = isset($page_seo_title) ? $page_seo_title : "Marketenza | SEO Agency, Web & App Development Company";
-        $meta_desc = isset($page_meta_desc) ? $page_meta_desc : "Marketenza is a leading SEO agency, website development & mobile app company in Noida. Scale your startup with high-ROAS marketing and custom tech.";
+        $page_title = isset($page_seo_title) ? $page_seo_title : "Marketenza | SEO  , Web & App Development Company";
+        $meta_desc = isset($page_meta_desc) ? $page_meta_desc : "Marketenza is a leading SEO  , website development & mobile app company in Noida. Scale your startup with high-ROAS marketing and custom tech.";
     ?>
     <title><?php echo htmlspecialchars($page_title); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($meta_desc); ?>">
