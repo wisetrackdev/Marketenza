@@ -18,13 +18,14 @@
                                     data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i
                                         class="fa-solid fa-play"></i></button>
                                 <p>
-                                    Accelerate Your Brand's Digital Growth with Result-Driven Marketing Solutions
-                                </p>
+                                    Transforming Ideas into Powerful Digital Solutions </p>
                             </div>
                         </div>
                         <div class="banner-content order-lg-2 order-1 animation-box anim-normal anim-delay-sm"
                             data-animation="fade-left">
-                            <p>From innovative web and mobile app development to branding, SEO, and digital marketing, we create scalable digital solutions that help your business stay ahead of the competition.
+                            <p>From innovative web and mobile app development to branding, SEO, and digital marketing,
+                                we create scalable digital solutions that help your business stay ahead of the
+                                competition.
                             </p>
                             <div
                                 class="d-flex flex-md-row flex-column justify-content-center justify-content-lg-start align-self-center align-self-lg-start gspace-3">
@@ -70,7 +71,8 @@
                                     <div class="card card-expertise animation-box anim-normal anim-delay-sm"
                                         data-animation="fade-down">
                                         <span class="heading-sm">Ready to Transform Your Business?</span>
-                                        <p>Let's build innovative websites, mobile apps, and digital strategies that help your business grow faster.</p>
+                                        <p>Let's build innovative websites, mobile apps, and digital strategies that
+                                            help your business grow faster.</p>
                                         <div class="d-flex align-items-center flex-row gspace-2 expertise-link">
                                             <a href="contact.php">Get Free Consultation</a>
                                             <i class="fa-solid fa-circle-arrow-right"></i>
@@ -99,12 +101,13 @@
                         <div class="expertise-list">
                             <!-- <h3 class="heading-xs">What We Do Best</h3> -->
                             <ul class="check-list">
-                                  <li>Custom Website & Mobile App Development tailored to your business needs.</li>
-    <li>E-Commerce & Custom Website Solutions that scale with your growth.</li>
-   
+                                <li>Custom Website & Mobile App Development tailored to your business needs.</li>
+                                <li>E-Commerce & Custom Website Solutions that scale with your growth.</li>
 
-    <li>Secure, scalable, and high-performance digital solutions that drive measurable business success.</li>
-                           
+
+                                <li>Secure, scalable, and high-performance digital solutions that drive measurable
+                                    business success.</li>
+
                             </ul>
                         </div>
                         <div class="card card-expertise card-expertise-counter animation-box anim-normal anim-delay-sm"
@@ -1062,7 +1065,7 @@
             </div>
         </div>
     </div>
-    <div class="section-wrapper-digital-process">
+    <!-- <div class="section-wrapper-digital-process">
         <div class="section digital-process-banner">
             <div class="hero-container">
                 <div class="digital-process-content">
@@ -1181,7 +1184,7 @@
             </div>
         </div>
         <div class="spacer"></div>
-    </div>
+    </div> -->
 
     <!-- Section Pricing -->
     <!-- <div class="section">
