@@ -21,29 +21,24 @@
         </div>
     </div>
     
-    <!-- Section Technology Detail -->
+    <!-- Section Technology Detail (Compact About-Style Layout) -->
     <div class="section pb-0">
         <div class="hero-container">
-            <div class="d-flex flex-column gspace-5">
-                <div class="image-container">
-                    <img src="image/Photo-1.jpg" alt=".NET Development C# ASP.NET Core Web API" class="single-service-img rounded-4">
-                    <div class="single-service-title-layout">
-                        <div>
-                            <div class="single-service-spacer"></div>
-                            <div class="single-service-title-wrapper">
-                                <div class="single-service-title">
-                                    <div class="sub-heading animation-box anim-slow anim-delay-md" data-animation="fade-left">
-                                        <i class="fa-solid fa-code"></i>
-                                        <span>Enterprise Backend Framework</span>
-                                    </div>
-                                    <h2 class="title-heading heading-md animation-box anim-normal anim-delay-sm" data-animation="fade-left">Robust, Scalable & High-Concurrency C# Backend Solutions</h2>
-                                    <p>.NET and ASP.NET Core are Microsoft's flagship open-source, cross-platform frameworks built for high-performance enterprise applications. At MARKETENZA, we leverage C# and .NET Core to engineer secure RESTful APIs, cloud-native microservices, and robust database architectures designed to handle millions of transactions with ease.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-service-spacer"></div>
+            <div class="d-flex flex-column flex-lg-row gspace-5 align-items-center mb-5">
+                <div class="expertise-img-layout">
+                    <div class="image-container expertise-img" style="max-width: 500px;">
+                        <img src="image/Photo-1.jpg" alt=".NET Development C# ASP.NET Core Web API" class="img-fluid rounded-4 shadow-sm">
                     </div>
                 </div>
+                <div class="expertise-title">
+                    <div class="sub-heading">
+                        <i class="fa-solid fa-code text-primary"></i>
+                        <span>Enterprise Backend Framework</span>
+                    </div>
+                    <h2 class="title-heading">Robust, Scalable & High-Concurrency C# Backend Solutions</h2>
+                    <p>.NET and ASP.NET Core are Microsoft's flagship open-source, cross-platform frameworks built for high-performance enterprise applications. At MARKETENZA, we leverage C# and .NET Core to engineer secure RESTful APIs, cloud-native microservices, and robust database architectures designed to handle millions of transactions with ease.</p>
+                </div>
+            </div>
 
                 <div class="row row-cols-lg-2 row-cols-1 grid-spacer-5">
                     <div class="col col-lg-8">

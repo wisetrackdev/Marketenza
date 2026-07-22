@@ -145,7 +145,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                                     <div class="mega-dropdown-header">
                                         <div class="mega-header-text">
                                             <h3 class="mega-title">Our Technology Stack: <span class="accent-text">Marketenza Core</span></h3>
-                                            <p class="mega-subtitle">Enterprise backend, reactive frontend, cross-platform mobile & advanced SEO tools.</p>
+                                            <p class="mega-subtitle">Backend, Frontend, Mobile, Databases, CMS platforms & SEO tools.</p>
                                         </div>
                                         <a href="technology.php" class="mega-see-all">
                                             SEE ALL TECH STACKS <i class="fa-solid fa-arrow-right"></i>
@@ -153,144 +153,145 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                                     </div>
                                     <div class="mega-dropdown-divider"></div>
                                     <div class="mega-services-grid">
+                                        <!-- Backend -->
                                         <a href="dotnet.php" class="mega-service-card">
                                             <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-code"></i>
-                                                </div>
-                                                <h4 class="mega-card-title">.NET / ASP.NET Core</h4>
+                                                <div class="mega-icon-wrapper"><i class="fa-solid fa-code"></i></div>
+                                                <h4 class="mega-card-title">.NET / C#</h4>
                                             </div>
-                                            <p class="mega-card-desc">Enterprise C# backend, web APIs & high-concurrency microservices.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE TECH</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            <p class="mega-card-desc">Enterprise C# Web APIs & microservices backend.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TECH</span><i class="fa-solid fa-arrow-right"></i></div>
                                         </a>
 
-                                        <a href="html-css.php" class="mega-service-card">
+                                        <a href="laravel.php" class="mega-service-card">
                                             <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-brands fa-html5"></i>
-                                                </div>
-                                                <h4 class="mega-card-title">HTML5 & CSS3</h4>
+                                                <div class="mega-icon-wrapper"><i class="fa-brands fa-laravel"></i></div>
+                                                <h4 class="mega-card-title">Laravel (PHP)</h4>
                                             </div>
-                                            <p class="mega-card-desc">Semantic HTML5 structure & modern responsive CSS3 animations.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE TECH</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            <p class="mega-card-desc">Elegant PHP web framework & REST APIs.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TECH</span><i class="fa-solid fa-arrow-right"></i></div>
                                         </a>
 
-                                        <a href="javascript.php" class="mega-service-card">
+                                        <a href="node-js.php" class="mega-service-card">
                                             <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-brands fa-js"></i>
-                                                </div>
-                                                <h4 class="mega-card-title">JavaScript ES6+</h4>
+                                                <div class="mega-icon-wrapper"><i class="fa-brands fa-node-js"></i></div>
+                                                <h4 class="mega-card-title">Node.js</h4>
                                             </div>
-                                            <p class="mega-card-desc">Dynamic client-side scripting, async APIs & TypeScript support.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE TECH</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            <p class="mega-card-desc">Event-driven asynchronous backend & Express APIs.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TECH</span><i class="fa-solid fa-arrow-right"></i></div>
                                         </a>
 
+                                        <!-- Frontend -->
                                         <a href="react-js.php" class="mega-service-card">
                                             <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-brands fa-react"></i>
-                                                </div>
+                                                <div class="mega-icon-wrapper"><i class="fa-brands fa-react"></i></div>
                                                 <h4 class="mega-card-title">React JS</h4>
                                             </div>
-                                            <p class="mega-card-desc">Component-driven single page web apps & interactive dashboards.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE TECH</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            <p class="mega-card-desc">Component-driven Single Page Applications.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TECH</span><i class="fa-solid fa-arrow-right"></i></div>
                                         </a>
 
                                         <a href="next-js.php" class="mega-service-card">
                                             <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-bolt"></i>
-                                                </div>
+                                                <div class="mega-icon-wrapper"><i class="fa-solid fa-bolt"></i></div>
                                                 <h4 class="mega-card-title">Next.js</h4>
                                             </div>
-                                            <p class="mega-card-desc">Server-side rendering (SSR), static site generation & lightning speed.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE TECH</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            <p class="mega-card-desc">Server-Side Rendering (SSR) & top SEO speed.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TECH</span><i class="fa-solid fa-arrow-right"></i></div>
                                         </a>
 
                                         <a href="vue-js.php" class="mega-service-card">
                                             <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-brands fa-vuejs"></i>
-                                                </div>
+                                                <div class="mega-icon-wrapper"><i class="fa-brands fa-vuejs"></i></div>
                                                 <h4 class="mega-card-title">Vue.js</h4>
                                             </div>
-                                            <p class="mega-card-desc">Lightweight progressive JavaScript framework for fast UI apps.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE TECH</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            <p class="mega-card-desc">Progressive JavaScript UI framework.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TECH</span><i class="fa-solid fa-arrow-right"></i></div>
                                         </a>
 
+                                        <!-- Mobile -->
                                         <a href="react-native.php" class="mega-service-card">
                                             <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-mobile-screen"></i>
-                                                </div>
+                                                <div class="mega-icon-wrapper"><i class="fa-solid fa-mobile-screen"></i></div>
                                                 <h4 class="mega-card-title">React Native</h4>
                                             </div>
-                                            <p class="mega-card-desc">Cross-platform iOS & Android mobile apps with native speed.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE TECH</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            <p class="mega-card-desc">Cross-platform iOS & Android mobile apps.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TECH</span><i class="fa-solid fa-arrow-right"></i></div>
                                         </a>
 
+                                        <a href="flutter.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper"><i class="fa-solid fa-mobile-button"></i></div>
+                                                <h4 class="mega-card-title">Flutter</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Google Dart native UI for iOS & Android.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TECH</span><i class="fa-solid fa-arrow-right"></i></div>
+                                        </a>
+
+                                        <!-- Databases -->
+                                        <a href="mysql.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper"><i class="fa-solid fa-database"></i></div>
+                                                <h4 class="mega-card-title">MySQL & Postgres</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Relational ACID database management.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TECH</span><i class="fa-solid fa-arrow-right"></i></div>
+                                        </a>
+
+                                        <a href="mongodb.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper"><i class="fa-solid fa-server"></i></div>
+                                                <h4 class="mega-card-title">MongoDB</h4>
+                                            </div>
+                                            <p class="mega-card-desc">NoSQL document store for high-volume data.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TECH</span><i class="fa-solid fa-arrow-right"></i></div>
+                                        </a>
+
+                                        <!-- CMS Platforms -->
+                                        <a href="shopify.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper"><i class="fa-brands fa-shopify"></i></div>
+                                                <h4 class="mega-card-title">Shopify</h4>
+                                            </div>
+                                            <p class="mega-card-desc">E-Commerce online store customization & apps.</p>
+                                            <div class="mega-card-link"><span>EXPLORE CMS</span><i class="fa-solid fa-arrow-right"></i></div>
+                                        </a>
+
+                                        <a href="wordpress.php" class="mega-service-card">
+                                            <div class="mega-card-header">
+                                                <div class="mega-icon-wrapper"><i class="fa-brands fa-wordpress"></i></div>
+                                                <h4 class="mega-card-title">WordPress</h4>
+                                            </div>
+                                            <p class="mega-card-desc">Custom CMS themes, plugins & WooCommerce.</p>
+                                            <div class="mega-card-link"><span>EXPLORE CMS</span><i class="fa-solid fa-arrow-right"></i></div>
+                                        </a>
+
+                                        <!-- SEO Tools -->
                                         <a href="google-analytics-seo.php" class="mega-service-card">
                                             <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-chart-pie"></i>
-                                                </div>
+                                                <div class="mega-icon-wrapper"><i class="fa-solid fa-chart-pie"></i></div>
                                                 <h4 class="mega-card-title">GA4 & Search Console</h4>
                                             </div>
-                                            <p class="mega-card-desc">Google Analytics 4 event tracking, GTM & indexing audits.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE TOOL</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            <p class="mega-card-desc">Google Analytics event tracking & indexing.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TOOL</span><i class="fa-solid fa-arrow-right"></i></div>
                                         </a>
 
                                         <a href="ahrefs-semrush-seo.php" class="mega-service-card">
                                             <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                                                </div>
+                                                <div class="mega-icon-wrapper"><i class="fa-solid fa-magnifying-glass-arrow-right"></i></div>
                                                 <h4 class="mega-card-title">Ahrefs & SEMrush</h4>
                                             </div>
-                                            <p class="mega-card-desc">Keyword intelligence, competitor backlink audits & SERP rankings.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE TOOL</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            <p class="mega-card-desc">Keyword research & competitor SERP audits.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TOOL</span><i class="fa-solid fa-arrow-right"></i></div>
                                         </a>
 
                                         <a href="screaming-frog-seo.php" class="mega-service-card">
                                             <div class="mega-card-header">
-                                                <div class="mega-icon-wrapper">
-                                                    <i class="fa-solid fa-bug-slash"></i>
-                                                </div>
-                                                <h4 class="mega-card-title">Screaming Frog & Tech SEO</h4>
+                                                <div class="mega-icon-wrapper"><i class="fa-solid fa-bug-slash"></i></div>
+                                                <h4 class="mega-card-title">Screaming Frog</h4>
                                             </div>
-                                            <p class="mega-card-desc">Deep site crawler audits, broken links & XML sitemap fixes.</p>
-                                            <div class="mega-card-link">
-                                                <span>EXPLORE TOOL</span>
-                                                <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
+                                            <p class="mega-card-desc">Technical website crawler & 404 audit tool.</p>
+                                            <div class="mega-card-link"><span>EXPLORE TOOL</span><i class="fa-solid fa-arrow-right"></i></div>
                                         </a>
                                     </div>
                                 </div>
@@ -398,13 +399,18 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                     </div>
                     <ul class="sidebar-dropdown-menu">
                         <li><a href="technology.php"><i class="fa-solid fa-microchip"></i> All Technologies</a></li>
-                        <li><a href="dotnet.php"><i class="fa-solid fa-code"></i> .NET / ASP.NET Core</a></li>
-                        <li><a href="html-css.php"><i class="fa-brands fa-html5"></i> HTML5 & CSS3</a></li>
-                        <li><a href="javascript.php"><i class="fa-brands fa-js"></i> JavaScript ES6+</a></li>
+                        <li><a href="dotnet.php"><i class="fa-solid fa-code"></i> .NET / C#</a></li>
+                        <li><a href="laravel.php"><i class="fa-brands fa-laravel"></i> Laravel PHP</a></li>
+                        <li><a href="node-js.php"><i class="fa-brands fa-node-js"></i> Node.js</a></li>
                         <li><a href="react-js.php"><i class="fa-brands fa-react"></i> React JS</a></li>
                         <li><a href="next-js.php"><i class="fa-solid fa-bolt"></i> Next.js</a></li>
                         <li><a href="vue-js.php"><i class="fa-brands fa-vuejs"></i> Vue.js</a></li>
                         <li><a href="react-native.php"><i class="fa-solid fa-mobile-screen"></i> React Native</a></li>
+                        <li><a href="flutter.php"><i class="fa-solid fa-mobile-button"></i> Flutter</a></li>
+                        <li><a href="mysql.php"><i class="fa-solid fa-database"></i> MySQL & Postgres</a></li>
+                        <li><a href="mongodb.php"><i class="fa-solid fa-server"></i> MongoDB</a></li>
+                        <li><a href="shopify.php"><i class="fa-brands fa-shopify"></i> Shopify CMS</a></li>
+                        <li><a href="wordpress.php"><i class="fa-brands fa-wordpress"></i> WordPress & Woo</a></li>
                         <li><a href="google-analytics-seo.php"><i class="fa-solid fa-chart-pie"></i> GA4 & Search Console</a></li>
                         <li><a href="ahrefs-semrush-seo.php"><i class="fa-solid fa-magnifying-glass-arrow-right"></i> Ahrefs & SEMrush</a></li>
                         <li><a href="screaming-frog-seo.php"><i class="fa-solid fa-bug-slash"></i> Screaming Frog & Tech SEO</a></li>

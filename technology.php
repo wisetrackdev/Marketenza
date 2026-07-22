@@ -3,12 +3,11 @@
 <!-- Section Main Content -->
 <main>
     <!-- Section Banner -->
-    <section class="section-banner">
+    <div class="section-banner">
         <div class="banner-layout-wrapper">
             <div class="banner-layout">
                 <div class="d-flex flex-column text-center align-items-center gspace-2">
-                    <h1 class="title-heading heading-lg animation-box anim-normal anim-delay-sm"
-                        data-animation="fade-left">Our Technology Stack</h1>
+                    <h1 class="title-heading heading-lg animation-box anim-normal anim-delay-sm" data-animation="fade-left">Our Technology Stack</h1>
                     <nav class="breadcrumb" aria-label="breadcrumb">
                         <a href="index.php" class="gspace-2">Home</a>
                         <span class="separator-link">/</span>
@@ -18,54 +17,101 @@
                 <div class="spacer"></div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- Section Intro Header -->
-    <section class="section">
+    <!-- Section Hero/About-Style Compact Layout (Matching index.php About Marketenza) -->
+    <div class="section">
+        <div class="hero-container">
+            <div class="d-flex flex-column flex-lg-row gspace-5 align-items-center">
+                <div class="expertise-img-layout">
+                    <div class="image-container expertise-img" style="max-width: 520px;">
+                        <img src="image/working-job-career-casual-showing-SJZWF3N-1024x737.jpg" alt="Marketenza Technology Engineering Team" class="img-fluid rounded-4 shadow-sm animation-box anim-normal anim-delay-sm" data-animation="fade-up">
+                        <div class="expertise-layout">
+                            <div class="d-flex flex-column">
+                                <div class="card-expertise-wrapper">
+                                    <div class="card card-expertise animation-box anim-normal anim-delay-sm" data-animation="fade-down">
+                                        <span class="heading-sm">Future-Proof Engineering</span>
+                                        <p>Clean code architecture, high security & top Core Web Vitals performance.</p>
+                                        <div class="d-flex align-items-center flex-row gspace-2 expertise-link">
+                                            <a href="contact.php">Get Free Tech Audit</a>
+                                            <i class="fa-solid fa-circle-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="expertise-spacer"></div>
+                            </div>
+                            <div class="expertise-spacer"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="expertise-title">
+                    <div class="sub-heading animation-box anim-normal anim-delay-sm" data-animation="fade-left">
+                        <i class="fa-regular fa-circle-dot"></i>
+                        <span>Technologies We Work With</span>
+                    </div>
+                    <h2 class="title-heading animation-box anim-normal anim-delay-sm" data-animation="fade-left">Cutting-Edge Mobile, Web, Database & SEO Tools</h2>
+                    <p>At MARKETENZA, we select the right technical tools for each project—ranging from high-concurrency enterprise backends (.NET, Laravel, Node.js) to reactive mobile apps (React Native, Flutter) and industry-standard SEO crawlers (Ahrefs, SEMrush, Screaming Frog).</p>
+                    <div class="d-flex flex-column flex-md-row gspace-2">
+                        <div class="expertise-list">
+                            <ul class="check-list">
+                                <li><strong>Fullstack Stack:</strong> .NET, Laravel, Node.js, React JS, Next.js & Vue.js.</li>
+                                <li><strong>Mobile Apps:</strong> React Native, Flutter, iOS (Swift) & Android (Kotlin).</li>
+                                <li><strong>Databases & CMS:</strong> MySQL, PostgreSQL, MongoDB, Shopify & WordPress.</li>
+                                <li><strong>SEO Tools:</strong> GA4, Google Search Console, Ahrefs, SEMrush & Screaming Frog.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Categorized Technology Grid Cards -->
+    <div class="section pt-0">
         <div class="hero-container">
             <div class="d-flex flex-column justify-content-center text-center gspace-5">
-                <div class="d-flex flex-column justify-content-center text-center gspace-2">
-                    <div class="sub-heading align-self-center animation-box anim-normal anim-delay-sm"
-                        data-animation="fade-down">
-                        <i class="fa-solid fa-microchip"></i>
-                        <span>Modern Engineering & Marketing Tech</span>
-                    </div>
-                    <h2 class="title-heading heading-container heading-container-medium animation-box anim-normal anim-delay-sm"
-                        data-animation="fade-down">Enterprise Backend, Reactive Frontend & Advanced SEO Tools</h2>
-                    <p class="text-secondary max-w-700 mx-auto mt-2">At Marketenza, we engineer high-performance web applications, mobile platforms, and search engine strategies using industry-leading technologies. Discover our full technology stack below.</p>
-                </div>
 
-                <!-- CATEGORY 1: BACKEND DEVELOPMENT -->
-                <div class="tech-category-wrapper mb-5">
-                    <div class="d-flex align-items-center gap-3 mb-4 text-start">
+                <!-- 1. MOBILE TECHNOLOGIES -->
+                <div class="tech-category-block text-start">
+                    <div class="d-flex align-items-center gap-3 mb-4">
                         <div class="service-icon-box" style="width: 48px; height: 48px; font-size: 20px;">
-                            <i class="fa-solid fa-server"></i>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
                         </div>
                         <div>
-                            <h3 class="heading-sm mb-1">Backend Infrastructure & Web APIs</h3>
-                            <p class="text-secondary m-0 fs-6">High-concurrency backend architecture, secure database microservices & cloud APIs.</p>
+                            <h3 class="heading-sm mb-1">Mobile App Technologies</h3>
+                            <p class="text-secondary m-0">Cross-platform & native mobile application frameworks.</p>
                         </div>
                     </div>
-                    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+                    <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-4">
                         <div class="col">
                             <article class="card card-service h-100">
                                 <div class="service-card-header">
-                                    <div class="service-icon-box">
-                                        <i class="fa-solid fa-code"></i>
-                                    </div>
-                                    <span class="service-tag">Backend Core</span>
+                                    <div class="service-icon-box"><i class="fa-solid fa-mobile-screen"></i></div>
+                                    <span class="service-tag">Cross-Platform</span>
                                 </div>
                                 <div class="service-card-body">
-                                    <h3 class="heading-sm">.NET & ASP.NET Core</h3>
-                                    <p>Enterprise C# backend engineering, RESTful Web APIs, Entity Framework ORM, and high-speed cloud microservices.</p>
-                                    <ul class="service-feature-list">
-                                        <li><i class="fa-solid fa-circle-check"></i> High Performance C# & ASP.NET Core</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Scalable Microservices Architecture</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Enterprise Security & SQL Integration</li>
-                                    </ul>
+                                    <h3 class="heading-sm">React Native</h3>
+                                    <p>Deploy native iOS & Android mobile apps from a single shared JavaScript codebase.</p>
                                 </div>
-                                <a href="dotnet.php" class="btn btn-accent w-100 mt-auto">
-                                    <div class="btn-title"><span>Explore .NET Details</span></div>
+                                <a href="react-native.php" class="btn btn-accent w-100 mt-auto">
+                                    <div class="btn-title"><span>Explore React Native</span></div>
+                                    <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>
+                                </a>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card card-service h-100">
+                                <div class="service-card-header">
+                                    <div class="service-icon-box"><i class="fa-solid fa-mobile-button"></i></div>
+                                    <span class="service-tag">Google Dart</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3 class="heading-sm">Flutter</h3>
+                                    <p>Google's UI toolkit for crafting natively compiled mobile, web, and desktop apps.</p>
+                                </div>
+                                <a href="flutter.php" class="btn btn-accent w-100 mt-auto">
+                                    <div class="btn-title"><span>Explore Flutter</span></div>
                                     <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>
                                 </a>
                             </article>
@@ -73,35 +119,92 @@
                     </div>
                 </div>
 
-                <!-- CATEGORY 2: FRONTEND & MOBILE -->
-                <div class="tech-category-wrapper mb-5">
-                    <div class="d-flex align-items-center gap-3 mb-4 text-start">
+                <!-- 2. BACKEND FRAMEWORKS -->
+                <div class="tech-category-block text-start mt-5">
+                    <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="service-icon-box" style="width: 48px; height: 48px; font-size: 20px;">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <div>
+                            <h3 class="heading-sm mb-1">Backend Web Frameworks</h3>
+                            <p class="text-secondary m-0">High-concurrency servers, RESTful APIs & enterprise microservices.</p>
+                        </div>
+                    </div>
+                    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+                        <div class="col">
+                            <article class="card card-service h-100">
+                                <div class="service-card-header">
+                                    <div class="service-icon-box"><i class="fa-solid fa-code"></i></div>
+                                    <span class="service-tag">Enterprise C#</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3 class="heading-sm">.NET / ASP.NET Core</h3>
+                                    <p>High-speed C# web APIs, Entity Framework ORM & Azure microservices.</p>
+                                </div>
+                                <a href="dotnet.php" class="btn btn-accent w-100 mt-auto">
+                                    <div class="btn-title"><span>Explore .NET</span></div>
+                                    <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>
+                                </a>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card card-service h-100">
+                                <div class="service-card-header">
+                                    <div class="service-icon-box"><i class="fa-brands fa-laravel"></i></div>
+                                    <span class="service-tag">PHP Framework</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3 class="heading-sm">Laravel (PHP)</h3>
+                                    <p>Elegant PHP web framework for robust backend portals, Eloquent ORM & APIs.</p>
+                                </div>
+                                <a href="laravel.php" class="btn btn-accent w-100 mt-auto">
+                                    <div class="btn-title"><span>Explore Laravel</span></div>
+                                    <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>
+                                </a>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card card-service h-100">
+                                <div class="service-card-header">
+                                    <div class="service-icon-box"><i class="fa-brands fa-node-js"></i></div>
+                                    <span class="service-tag">Asynchronous JS</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3 class="heading-sm">Node.js / Express</h3>
+                                    <p>Event-driven, non-blocking I/O JavaScript runtime for scalable Web APIs.</p>
+                                </div>
+                                <a href="node-js.php" class="btn btn-accent w-100 mt-auto">
+                                    <div class="btn-title"><span>Explore Node.js</span></div>
+                                    <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. FRONTEND FRAMEWORKS -->
+                <div class="tech-category-block text-start mt-5">
+                    <div class="d-flex align-items-center gap-3 mb-4">
                         <div class="service-icon-box" style="width: 48px; height: 48px; font-size: 20px;">
                             <i class="fa-solid fa-laptop-code"></i>
                         </div>
                         <div>
-                            <h3 class="heading-sm mb-1">Frontend Engineering & Mobile Frameworks</h3>
-                            <p class="text-secondary m-0 fs-6">Reactive UI design, lightning-fast rendering, and cross-platform mobile apps.</p>
+                            <h3 class="heading-sm mb-1">Frontend Engineering</h3>
+                            <p class="text-secondary m-0">Modern client-side libraries, SSR frameworks & responsive CSS.</p>
                         </div>
                     </div>
                     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
-                        <!-- HTML5 & CSS3 -->
                         <div class="col">
                             <article class="card card-service h-100">
                                 <div class="service-card-header">
-                                    <div class="service-icon-box">
-                                        <i class="fa-brands fa-html5"></i>
-                                    </div>
+                                    <div class="service-icon-box"><i class="fa-brands fa-html5"></i></div>
                                     <span class="service-tag">UI Foundation</span>
                                 </div>
                                 <div class="service-card-body">
                                     <h3 class="heading-sm">HTML5 & CSS3</h3>
-                                    <p>Semantic HTML markup for Google SEO optimization, modern CSS grid layouts, flexbox, and smooth hardware-accelerated animations.</p>
-                                    <ul class="service-feature-list">
-                                        <li><i class="fa-solid fa-circle-check"></i> W3C Compliant Semantic Code</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Mobile-First Responsive Design</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Glassmorphism & Keyframe FX</li>
-                                    </ul>
+                                    <p>Semantic HTML5 structure, responsive CSS Grid, Flexbox & CSS keyframe animations.</p>
                                 </div>
                                 <a href="html-css.php" class="btn btn-accent w-100 mt-auto">
                                     <div class="btn-title"><span>Explore HTML5 & CSS3</span></div>
@@ -110,23 +213,15 @@
                             </article>
                         </div>
 
-                        <!-- JavaScript -->
                         <div class="col">
                             <article class="card card-service h-100">
                                 <div class="service-card-header">
-                                    <div class="service-icon-box">
-                                        <i class="fa-brands fa-js"></i>
-                                    </div>
-                                    <span class="service-tag">Client Scripting</span>
+                                    <div class="service-icon-box"><i class="fa-brands fa-js"></i></div>
+                                    <span class="service-tag">Scripting</span>
                                 </div>
                                 <div class="service-card-body">
                                     <h3 class="heading-sm">JavaScript ES6+</h3>
-                                    <p>Modern asynchronous JavaScript, DOM manipulation, Fetch/Axios API integrations, and robust TypeScript type safety.</p>
-                                    <ul class="service-feature-list">
-                                        <li><i class="fa-solid fa-circle-check"></i> Asynchronous Promises & Async/Await</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Event-Driven Client Logic</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> TypeScript Enterprise Integration</li>
-                                    </ul>
+                                    <p>Modern asynchronous DOM manipulation, fetch APIs, and TypeScript support.</p>
                                 </div>
                                 <a href="javascript.php" class="btn btn-accent w-100 mt-auto">
                                     <div class="btn-title"><span>Explore JavaScript</span></div>
@@ -135,23 +230,15 @@
                             </article>
                         </div>
 
-                        <!-- React JS -->
                         <div class="col">
                             <article class="card card-service h-100">
                                 <div class="service-card-header">
-                                    <div class="service-icon-box">
-                                        <i class="fa-brands fa-react"></i>
-                                    </div>
+                                    <div class="service-icon-box"><i class="fa-brands fa-react"></i></div>
                                     <span class="service-tag">Single Page Apps</span>
                                 </div>
                                 <div class="service-card-body">
                                     <h3 class="heading-sm">React JS</h3>
-                                    <p>Component-driven web applications, dynamic state management (Redux/Zustand), virtual DOM rendering, and modular architecture.</p>
-                                    <ul class="service-feature-list">
-                                        <li><i class="fa-solid fa-circle-check"></i> Reusable UI Components</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Virtual DOM Ultra Speed</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Rich React Ecosystem</li>
-                                    </ul>
+                                    <p>Component-driven web applications, virtual DOM speed & Redux state management.</p>
                                 </div>
                                 <a href="react-js.php" class="btn btn-accent w-100 mt-auto">
                                     <div class="btn-title"><span>Explore React JS</span></div>
@@ -160,23 +247,15 @@
                             </article>
                         </div>
 
-                        <!-- Next.js -->
                         <div class="col">
                             <article class="card card-service h-100">
                                 <div class="service-card-header">
-                                    <div class="service-icon-box">
-                                        <i class="fa-solid fa-bolt"></i>
-                                    </div>
+                                    <div class="service-icon-box"><i class="fa-solid fa-bolt"></i></div>
                                     <span class="service-tag">SSR & Fullstack</span>
                                 </div>
                                 <div class="service-card-body">
                                     <h3 class="heading-sm">Next.js</h3>
-                                    <p>Fullstack React framework featuring Server-Side Rendering (SSR), Static Site Generation (SSG), automatic image optimization & top SEO.</p>
-                                    <ul class="service-feature-list">
-                                        <li><i class="fa-solid fa-circle-check"></i> Server-Side Rendering (SSR)</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Zero-Config Lighthouse 100 Speed</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Built-in SEO Optimization</li>
-                                    </ul>
+                                    <p>Server-Side Rendering (SSR), static generation & Lighthouse 100 SEO performance.</p>
                                 </div>
                                 <a href="next-js.php" class="btn btn-accent w-100 mt-auto">
                                     <div class="btn-title"><span>Explore Next.js</span></div>
@@ -185,23 +264,15 @@
                             </article>
                         </div>
 
-                        <!-- Vue.js -->
                         <div class="col">
                             <article class="card card-service h-100">
                                 <div class="service-card-header">
-                                    <div class="service-icon-box">
-                                        <i class="fa-brands fa-vuejs"></i>
-                                    </div>
+                                    <div class="service-icon-box"><i class="fa-brands fa-vuejs"></i></div>
                                     <span class="service-tag">Progressive UI</span>
                                 </div>
                                 <div class="service-card-body">
                                     <h3 class="heading-sm">Vue.js</h3>
-                                    <p>Progressive JavaScript framework for building intuitive, highly reactive web interfaces and lightweight single-page applications.</p>
-                                    <ul class="service-feature-list">
-                                        <li><i class="fa-solid fa-circle-check"></i> Reactive Two-Way Data Binding</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Pinia & Vue Router Setup</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Lightweight & High Performance</li>
-                                    </ul>
+                                    <p>Progressive JavaScript framework for building intuitive, highly reactive web interfaces.</p>
                                 </div>
                                 <a href="vue-js.php" class="btn btn-accent w-100 mt-auto">
                                     <div class="btn-title"><span>Explore Vue.js</span></div>
@@ -209,27 +280,50 @@
                                 </a>
                             </article>
                         </div>
+                    </div>
+                </div>
 
-                        <!-- React Native -->
+                <!-- 4. DATABASES -->
+                <div class="tech-category-block text-start mt-5">
+                    <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="service-icon-box" style="width: 48px; height: 48px; font-size: 20px;">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div>
+                            <h3 class="heading-sm mb-1">Database Systems</h3>
+                            <p class="text-secondary m-0">Relational SQL & Document NoSQL database engines.</p>
+                        </div>
+                    </div>
+                    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
                         <div class="col">
                             <article class="card card-service h-100">
                                 <div class="service-card-header">
-                                    <div class="service-icon-box">
-                                        <i class="fa-solid fa-mobile-screen"></i>
-                                    </div>
-                                    <span class="service-tag">Cross-Platform</span>
+                                    <div class="service-icon-box"><i class="fa-solid fa-database"></i></div>
+                                    <span class="service-tag">Relational SQL</span>
                                 </div>
                                 <div class="service-card-body">
-                                    <h3 class="heading-sm">React Native</h3>
-                                    <p>Build native mobile apps for iOS and Android using a single shared JavaScript/TypeScript codebase with 60fps native performance.</p>
-                                    <ul class="service-feature-list">
-                                        <li><i class="fa-solid fa-circle-check"></i> iOS & Android Native Performance</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Shared Single Codebase</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Native Camera & GPS Integration</li>
-                                    </ul>
+                                    <h3 class="heading-sm">MySQL & PostgreSQL</h3>
+                                    <p>Enterprise relational databases with ACID compliance, indexing & complex queries.</p>
                                 </div>
-                                <a href="react-native.php" class="btn btn-accent w-100 mt-auto">
-                                    <div class="btn-title"><span>Explore React Native</span></div>
+                                <a href="mysql.php" class="btn btn-accent w-100 mt-auto">
+                                    <div class="btn-title"><span>Explore MySQL & Postgres</span></div>
+                                    <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>
+                                </a>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card card-service h-100">
+                                <div class="service-card-header">
+                                    <div class="service-icon-box"><i class="fa-solid fa-server"></i></div>
+                                    <span class="service-tag">NoSQL Store</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3 class="heading-sm">MongoDB</h3>
+                                    <p>High-speed JSON/BSON document-oriented NoSQL database for unstructured data.</p>
+                                </div>
+                                <a href="mongodb.php" class="btn btn-accent w-100 mt-auto">
+                                    <div class="btn-title"><span>Explore MongoDB</span></div>
                                     <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>
                                 </a>
                             </article>
@@ -237,35 +331,75 @@
                     </div>
                 </div>
 
-                <!-- CATEGORY 3: SEO & ANALYTICS TOOLS -->
-                <div class="tech-category-wrapper mb-4">
-                    <div class="d-flex align-items-center gap-3 mb-4 text-start">
+                <!-- 5. CMS PLATFORMS -->
+                <div class="tech-category-block text-start mt-5">
+                    <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="service-icon-box" style="width: 48px; height: 48px; font-size: 20px;">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <div>
+                            <h3 class="heading-sm mb-1">CMS & E-Commerce Platforms</h3>
+                            <p class="text-secondary m-0">Turnkey store platforms & custom CMS customization.</p>
+                        </div>
+                    </div>
+                    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+                        <div class="col">
+                            <article class="card card-service h-100">
+                                <div class="service-card-header">
+                                    <div class="service-icon-box"><i class="fa-brands fa-shopify"></i></div>
+                                    <span class="service-tag">E-Commerce</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3 class="heading-sm">Shopify & Shopify Plus</h3>
+                                    <p>Custom Shopify Liquid themes, checkout optimization & custom app development.</p>
+                                </div>
+                                <a href="shopify.php" class="btn btn-accent w-100 mt-auto">
+                                    <div class="btn-title"><span>Explore Shopify</span></div>
+                                    <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>
+                                </a>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card card-service h-100">
+                                <div class="service-card-header">
+                                    <div class="service-icon-box"><i class="fa-brands fa-wordpress"></i></div>
+                                    <span class="service-tag">CMS Engine</span>
+                                </div>
+                                <div class="service-card-body">
+                                    <h3 class="heading-sm">WordPress & WooCommerce</h3>
+                                    <p>Custom WordPress themes, plugin engineering & WooCommerce e-commerce setups.</p>
+                                </div>
+                                <a href="wordpress.php" class="btn btn-accent w-100 mt-auto">
+                                    <div class="btn-title"><span>Explore WordPress</span></div>
+                                    <div class="icon-circle"><i class="fa-solid fa-arrow-right"></i></div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. SEO & ANALYTICS TOOLS -->
+                <div class="tech-category-block text-start mt-5 mb-4">
+                    <div class="d-flex align-items-center gap-3 mb-4">
                         <div class="service-icon-box" style="width: 48px; height: 48px; font-size: 20px;">
                             <i class="fa-solid fa-magnifying-glass-chart"></i>
                         </div>
                         <div>
-                            <h3 class="heading-sm mb-1">SEO Tools & Marketing Intelligence</h3>
-                            <p class="text-secondary m-0 fs-6">Enterprise SEO crawlers, keyword analytics, backlink monitors & conversion tracking platforms.</p>
+                            <h3 class="heading-sm mb-1">SEO & Marketing Intelligence Tools</h3>
+                            <p class="text-secondary m-0">Advanced crawlers, search console analytics & competitor SERP suites.</p>
                         </div>
                     </div>
                     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
-                        <!-- GA4 & Search Console -->
                         <div class="col">
                             <article class="card card-service h-100">
                                 <div class="service-card-header">
-                                    <div class="service-icon-box">
-                                        <i class="fa-solid fa-chart-pie"></i>
-                                    </div>
-                                    <span class="service-tag">Analytics Suite</span>
+                                    <div class="service-icon-box"><i class="fa-solid fa-chart-pie"></i></div>
+                                    <span class="service-tag">Google Suite</span>
                                 </div>
                                 <div class="service-card-body">
                                     <h3 class="heading-sm">GA4 & Search Console</h3>
-                                    <p>Google Analytics 4 event tracking, GTM tag containers, indexation monitoring, and search impression analytics.</p>
-                                    <ul class="service-feature-list">
-                                        <li><i class="fa-solid fa-circle-check"></i> Event & Funnel Conversion Tracking</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Google Indexation & Sitemap Audits</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Real-Time User Behavior Reports</li>
-                                    </ul>
+                                    <p>Google Analytics 4 event tracking, GTM & indexing audits.</p>
                                 </div>
                                 <a href="google-analytics-seo.php" class="btn btn-accent w-100 mt-auto">
                                     <div class="btn-title"><span>Explore GA4 & GSC</span></div>
@@ -274,23 +408,15 @@
                             </article>
                         </div>
 
-                        <!-- Ahrefs & SEMrush -->
                         <div class="col">
                             <article class="card card-service h-100">
                                 <div class="service-card-header">
-                                    <div class="service-icon-box">
-                                        <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
-                                    </div>
-                                    <span class="service-tag">Keyword & Link Intelligence</span>
+                                    <div class="service-icon-box"><i class="fa-solid fa-magnifying-glass-arrow-right"></i></div>
+                                    <span class="service-tag">SERP Intelligence</span>
                                 </div>
                                 <div class="service-card-body">
                                     <h3 class="heading-sm">Ahrefs & SEMrush</h3>
-                                    <p>Competitive keyword gap analysis, backlink profile audits, rank tracking, and domain authority growth research.</p>
-                                    <ul class="service-feature-list">
-                                        <li><i class="fa-solid fa-circle-check"></i> High-Intent Keyword Gap Analysis</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Competitor Backlink Audits</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Daily SERP Position Tracking</li>
-                                    </ul>
+                                    <p>Competitor keyword gap analysis & backlink profile research.</p>
                                 </div>
                                 <a href="ahrefs-semrush-seo.php" class="btn btn-accent w-100 mt-auto">
                                     <div class="btn-title"><span>Explore Ahrefs & SEMrush</span></div>
@@ -299,23 +425,15 @@
                             </article>
                         </div>
 
-                        <!-- Screaming Frog -->
                         <div class="col">
                             <article class="card card-service h-100">
                                 <div class="service-card-header">
-                                    <div class="service-icon-box">
-                                        <i class="fa-solid fa-bug-slash"></i>
-                                    </div>
-                                    <span class="service-tag">Technical SEO Crawler</span>
+                                    <div class="service-icon-box"><i class="fa-solid fa-bug-slash"></i></div>
+                                    <span class="service-tag">Technical Crawler</span>
                                 </div>
                                 <div class="service-card-body">
-                                    <h3 class="heading-sm">Screaming Frog & Tech SEO</h3>
-                                    <p>Deep website crawler audits for 404 errors, canonical loops, schema markup validation, and XML sitemap generation.</p>
-                                    <ul class="service-feature-list">
-                                        <li><i class="fa-solid fa-circle-check"></i> Deep Website Crawling & 404 Fixes</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Canonical & Redirection Audits</li>
-                                        <li><i class="fa-solid fa-circle-check"></i> Structured Schema Markup Validation</li>
-                                    </ul>
+                                    <h3 class="heading-sm">Screaming Frog</h3>
+                                    <p>Deep website crawler audits for 404 errors, canonicals & schema validation.</p>
                                 </div>
                                 <a href="screaming-frog-seo.php" class="btn btn-accent w-100 mt-auto">
                                     <div class="btn-title"><span>Explore Screaming Frog</span></div>
@@ -325,9 +443,10 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Section CTA Banner -->
     <section class="section-guide mb-5">
