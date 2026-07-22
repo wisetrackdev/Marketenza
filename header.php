@@ -4,7 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Digital Marketing Agency</title>
+    <?php
+        $page_title = isset($page_seo_title) ? $page_seo_title : "Marketenza | SEO Agency, Web & App Development Company";
+        $meta_desc = isset($page_meta_desc) ? $page_meta_desc : "Marketenza is a leading SEO agency, website development & mobile app company in Noida. Scale your startup with high-ROAS marketing and custom tech.";
+    ?>
+    <title><?php echo htmlspecialchars($page_title); ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($meta_desc); ?>">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars($meta_desc); ?>">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -17,7 +26,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="navbar-container">
                     <div class="logo-container-header">
-                        <img src="img/logo.png" alt="Logo" class="site-logo img-fluid">
+                        <a href="index.php"><img src="img/logo.png" alt="Marketenza - SEO & Web Development Company Logo" class="site-logo img-fluid"></a>
                     </div>
                     <button class="nav-btn">
                         <i class="fa-solid fa-bars"></i>

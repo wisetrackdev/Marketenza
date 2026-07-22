@@ -1,4 +1,8 @@
-<?php include 'header.php'; ?>
+<?php 
+$page_seo_title = "Contact Marketenza | Get a Free SEO & Web Strategy Consultation";
+$page_meta_desc = "Get in touch with Marketenza. Contact our SEO specialists & web development team in Noida for a free strategy call & custom project quote.";
+include 'header.php'; 
+?>
 
     <!-- Section Main Content -->
     <main>

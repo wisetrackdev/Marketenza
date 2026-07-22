@@ -1,4 +1,8 @@
-<?php include 'header.php'; ?>
+<?php 
+$page_seo_title = "About Marketenza | Full-Service SEO & Tech Development Agency";
+$page_meta_desc = "Learn about Marketenza, a leading digital marketing agency & software house in Noida delivering high-ROAS SEO, custom web & mobile apps.";
+include 'header.php'; 
+?>
 
 <main>
     <div class="section-banner">

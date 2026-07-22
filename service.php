@@ -1,4 +1,8 @@
-<?php include 'header.php'; ?>
+<?php 
+$page_seo_title = "Digital Marketing & Software Development Services | Marketenza";
+$page_meta_desc = "Explore Marketenza's full suite of SEO, PPC advertising, custom website development, mobile apps, e-commerce & CRM automation services.";
+include 'header.php'; 
+?>
 
 <!-- Section Main Content -->
 <main>

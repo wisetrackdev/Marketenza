@@ -1,4 +1,8 @@
-<?php include 'header.php'; ?>
+<?php 
+$page_seo_title = "Technology Stack | .NET, React, Next.js, Node.js & SEO Tools - Marketenza";
+$page_meta_desc = "Discover Marketenza's engineering stack: .NET, Laravel, Node.js, React JS, Next.js, Vue.js, React Native, GA4, Ahrefs, SEMrush & Screaming Frog.";
+include 'header.php'; 
+?>
 
 <!-- Section Main Content -->
 <main>

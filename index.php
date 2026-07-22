@@ -1,4 +1,8 @@
-<?php include 'header.php'; ?>
+<?php 
+$page_seo_title = "Marketenza | Best SEO Agency, Web & App Development Company in Noida";
+$page_meta_desc = "Grow your business online with Marketenza. Top SEO agency, custom website designing, mobile app development & digital marketing services in Noida, India.";
+include 'header.php'; 
+?>
 
 <main>
     <div class="section-banner">
