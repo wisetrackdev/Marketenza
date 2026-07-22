@@ -51,7 +51,8 @@
                                         <h3 class="heading-xs">Contact Info</h3>
                                         <ul class="contact-list">
                                             <li>hello@markoagency.com</li>
-                                            <li>+1 234 567 890</li>
+                                            <li>+91 85274 30152</li>
+                                            <!-- <li>+91 9315957014</li> -->
                                             <li>123 Digital Street, New York, USA</li>
                                         </ul>
                                         <div class="d-flex flex-column gspace-1">
