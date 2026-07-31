@@ -620,7 +620,7 @@ include 'header.php';
     </div>
 
     <!-- Section Team -->
-    <div class="section">
+    <!-- <div class="section">
         <div class="hero-container">
             <div class="team-wrapper">
                 <div class="card team-layout">
@@ -722,7 +722,7 @@ include 'header.php';
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Section Digital Process -->
     <div class="section">
